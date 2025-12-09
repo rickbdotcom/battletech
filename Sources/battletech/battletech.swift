@@ -26,7 +26,10 @@ struct BattleTech: ParsableCommand {
             "Sub Type",
             "Damage",
             "Tonnage",
-            "Heat"
+            "Heat",
+            "Bonus",
+            "Dmg/Ton",
+            "Dmg/Heat"
         ].joined(separator: "\t") + "\n"
 
         files.forEach { file in
@@ -34,19 +37,22 @@ struct BattleTech: ParsableCommand {
                 let data = try Data(contentsOf: URL(fileURLWithPath: file))
                 let weapon = try JSONDecoder().decode(Weapon.self, from: data)
                 spreadsheet += [
-                    weapon.name,
+                    weapon.Description.UIName,
                     weapon.Category,
                     weapon.WeaponType,
                     weapon.WeaponSubType,
-                    String(weapon.Damage),
-                    String(weapon.Tonnage),
-                    String(weapon.HeatGenerated)
+                    weapon.displayDamage,
+                    weapon.displayTonnage,
+                    weapon.displayHeatGenerated,
+                    weapon.bonus,
+                    weapon.displayDamagePerTon,
+                    weapon.displayDamagePerHeat
                 ].joined(separator: "\t") + "\n"
             } catch {
             }
         }
 
-        try spreadsheet.data(using: .utf8)?.write(to: URL(fileURLWithPath: "out.tsv"))
+        try spreadsheet.data(using: .utf8)?.write(to: URL(fileURLWithPath: "weapons.tsv"))
     }
 }
 
@@ -60,7 +66,11 @@ struct Weapon: Decodable {
     let BonusValueA: String
     let BonusValueB: String
     let Description: DescriptionInfo
+    let ShotsWhenFired: Float
 
+    var bonus: String {
+        [BonusValueA, BonusValueB].joined(separator: " ")
+    }
     enum CodingKeys: String, CodingKey {
         case Category
         case WeaponType = "Type"
@@ -71,18 +81,44 @@ struct Weapon: Decodable {
         case BonusValueA
         case BonusValueB
         case Description
+        case ShotsWhenFired
     }
 
     struct DescriptionInfo: Decodable {
-        let Id: String
-
+        let UIName: String
     }
 
-    var name: String {
-        return [
-            Description.Id, BonusValueA, BonusValueB
-        ].compactMap {
-            $0.isEmpty ? nil : $0
-        }.joined(separator: "")
+    var totalDamage: Float {
+        Damage * ShotsWhenFired
+    }
+
+    var displayDamagePerHeat: String {
+        HeatGenerated == 0 ? "No Heat" : String(format: "%.1f", totalDamage / HeatGenerated)
+    }
+
+    var displayDamagePerTon: String {
+        String(format: "%.1f", totalDamage / Tonnage)
+    }
+
+    var displayDamage: String {
+        String(totalDamage)
+    }
+
+    var displayTonnage: String {
+        String(Tonnage)
+    }
+
+    var displayHeatGenerated: String {
+        String(HeatGenerated)
     }
 }
+
+extension String {
+    var emptyNil: String? {
+        isEmpty ? nil : self
+    }
+}
+
+// swift run battletech --weapons "/Volumes/Developer/SteamLibrary/steamapps/common/BATTLETECH/BattleTech.app/Contents/Resources/Data/StreamingAssets/data/weapon" --weapons "/Volumes/Developer/SteamLibrary/steamapps/common/BATTLETECH/BattleTech.app/Contents/Resources/Mods/Expanded Arsenal-635-5-0-3-1687981803/ExpandedArsenal/weapons" --weapons "/Volumes/Developer/SteamLibrary/steamapps/common/BATTLETECH/BattleTech.app/Contents/Resources/Mods/Expanded Arsenal-635-5-0-3-1687981803/EliteArsenal/weapons"
+
+

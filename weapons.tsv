@@ -1,0 +1,621 @@
+Name	Category	Type	Sub Type	Damage	Tonnage	Heat	Bonus	Dmg/Ton	Dmg/Heat
+LRM15 +	Missile	LRM	LRM15	75.0	7.0	14.0	+ 1 Dmg. 	10.7	5.4
+AC/10 +	Ballistic	Autocannon	AC10	65.0	12.0	12.0	+ 5 Dmg. 	5.4	5.4
+AC/10 +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 2 Acc. 	5.0	5.0
+L Laser + + +	Energy	Laser	LargeLaser	50.0	5.0	18.0	+ 10 Dmg. + 3 Acc.	10.0	2.8
+Flamer + + +	AntiPersonnel	Flamer	Flamer	5.0	1.0	0.0	* 40 Ammo 	5.0	No Heat
+SRM4 + +	Missile	SRM	SRM4	32.0	2.0	8.0	+ 50% Crit. 	16.0	4.0
+SRM6	Missile	SRM	SRM6	48.0	3.0	12.0	 	16.0	4.0
+LRM10 + +	Missile	LRM	LRM10	60.0	5.0	10.0	+ 2 Dmg. 	12.0	6.0
+AC/10 +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 10 Stb.Dmg. 	5.0	5.0
+PPC +	Energy	PPC	PPC	55.0	7.0	35.0	+ 5 Dmg. 	7.9	1.6
+SRM6 +	Missile	SRM	SRM6	48.0	3.0	12.0	+ 25% Crit. 	16.0	4.0
+AC/20 + + + 	Ballistic	Autocannon	AC20	100.0	14.0	24.0	 	7.1	4.2
+L Pulse + +	Energy	Laser	LargeLaserPulse	65.0	6.0	30.0	+ 10 Dmg. - 1 Ton	10.8	2.2
+Flamer + +	AntiPersonnel	Flamer	Flamer	5.0	1.0	0.0	* 4 Ammo + 5 Dmg. (H)	5.0	No Heat
+AC/2 +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 2 Acc. 	4.2	6.2
+AC/5 + +	Ballistic	Autocannon	AC5	55.0	8.0	8.0	+ 10 Dmg. 	6.9	6.9
+ER M Laser + +	Energy	Laser	MediumLaserER	45.0	1.0	20.0	+ 10 Dmg. 	45.0	2.2
+AC/20 + + +	Ballistic	Autocannon	AC20	120.0	14.0	24.0	+ 20 Dmg. + 20 Stb.Dmg.	8.6	5.0
+ER PPC + +	Energy	PPC	PPCER	70.0	6.0	45.0	+ 10 Dmg. - 1 Ton	11.7	1.6
+AC/5 + +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 4 Acc. 	5.6	5.6
+LRM10 + +	Missile	LRM	LRM10	40.0	5.0	10.0	+ 50% Crit. 	8.0	4.0
+AC/2 + +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 2 Acc. + 25% Crit.	4.2	6.2
+LRM5 + +	Missile	LRM	LRM5	20.0	2.0	6.0	+ 50% Crit. 	10.0	3.3
+Gauss Rifle + +	Ballistic	Gauss	Gauss	75.0	13.0	5.0	- 2 Tons - 1 Slot	5.8	15.0
+MG +	AntiPersonnel	MachineGun	MachineGun	15.0	0.5	0.0	+ 25% Crit. 	30.0	No Heat
+L Laser +	Energy	Laser	LargeLaser	45.0	5.0	18.0	+ 5 Dmg. 	9.0	2.5
+AC/2 + + +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 4 Acc. + 50% Crit.	4.2	6.2
+AC/2 +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 25% Crit. 	4.2	6.2
+M Laser + + +	Energy	Laser	MediumLaser	25.0	1.0	12.0	+ 3 Acc. + 50% Crit.	25.0	2.1
+AC/2 + +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 4 Acc. 	4.2	6.2
+LRM5 +	Missile	LRM	LRM5	20.0	2.0	6.0	+ 25% Crit. 	10.0	3.3
+LRM10 +	Missile	LRM	LRM10	40.0	5.0	10.0	+ 25% Crit. 	8.0	4.0
+AC/5 +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 2 Acc. 	5.6	5.6
+AC/20 + +	Ballistic	Autocannon	AC20	110.0	14.0	24.0	+ 10 Dmg. + 10 Stb.Dmg.	7.9	4.6
+SRM2 + +	Missile	SRM	SRM2	16.0	1.0	4.0	+ 50% Crit. 	16.0	4.0
+M Laser + +	Energy	Laser	MediumLaser	25.0	1.0	12.0	+ 1 Acc. + 25% Crit.	25.0	2.1
+LRM5 +	Missile	LRM	LRM5	25.0	2.0	6.0	+ 1 Dmg. 	12.5	4.2
+AC/10 + +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 4 Acc. 	5.0	5.0
+PPC +	Energy	PPC	PPC	50.0	7.0	35.0	+ 2 Acc. 	7.1	1.4
+ER S Laser	AntiPersonnel	Laser	SmallLaserER	30.0	0.5	10.0	 	60.0	3.0
+MG	AntiPersonnel	MachineGun	MachineGun	15.0	0.5	0.0	 	30.0	No Heat
+M Laser + +	Energy	Laser	MediumLaser	25.0	1.0	12.0	 + 50% Crit.	25.0	2.1
+M Pulse	Energy	Laser	MediumLaserPulse	40.0	2.0	20.0	 	20.0	2.0
+MG +	AntiPersonnel	MachineGun	MachineGun	30.0	0.5	0.0	+ 5 Shots 	60.0	No Heat
+LRM20 + + +	Missile	LRM	LRM20	80.0	10.0	18.0	+ 50% Crit. + 2 Stb.Dmg.	8.0	4.4
+LRM20 + +	Missile	LRM	LRM20	120.0	10.0	18.0	+ 2 Dmg. 	12.0	6.7
+AC/20 + +	Ballistic	Autocannon	AC20	100.0	14.0	24.0	+ 20 Stb.Dmg. 	7.1	4.2
+L Pulse	Energy	Laser	LargeLaserPulse	55.0	7.0	30.0	 	7.9	1.8
+M Laser + +	Energy	Laser	MediumLaser	35.0	1.0	12.0	+ 10 Dmg. 	35.0	2.9
+LRM5 + +	Missile	LRM	LRM5	20.0	2.0	6.0	+ 2 Stb.Dmg. 	10.0	3.3
+ER S Laser + +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	10.0	+ 10 Dmg. 	80.0	4.0
+L Laser + +	Energy	Laser	LargeLaser	40.0	5.0	18.0	+ 50% Crit. 	8.0	2.2
+AC/20 +	Ballistic	Autocannon	AC20	100.0	14.0	24.0	+ 10 Stb.Dmg. 	7.1	4.2
+LRM5	Missile	LRM	LRM5	20.0	2.0	6.0	 	10.0	3.3
+LRM20 +	Missile	LRM	LRM20	80.0	10.0	18.0	+ 1 Stb.Dmg. 	8.0	4.4
+AC/10 + +	Ballistic	Autocannon	AC10	70.0	12.0	12.0	+ 10 Dmg. 	5.8	5.8
+S Laser	AntiPersonnel	Laser	SmallLaser	20.0	0.5	6.0	 	40.0	3.3
+M Laser + +	Energy	Laser	MediumLaser	25.0	1.0	12.0	+3 Acc. 	25.0	2.1
+ER S Laser +	AntiPersonnel	Laser	SmallLaserER	35.0	0.5	10.0	+ 5 Dmg. 	70.0	3.5
+L Laser	Energy	Laser	LargeLaser	40.0	5.0	18.0	 	8.0	2.2
+PPC	Energy	PPC	PPC	50.0	7.0	35.0	 	7.1	1.4
+SRM4 +	Missile	SRM	SRM4	40.0	2.0	8.0	+ 2 Dmg. 	20.0	5.0
+S Laser +	AntiPersonnel	Laser	SmallLaser	25.0	0.5	6.0	+ 5 Dmg. 	50.0	4.2
+Flamer +	AntiPersonnel	Flamer	Flamer	10.0	1.0	0.0	* 4 Ammo + 5 Dmg.	10.0	No Heat
+AC/5 +	Ballistic	Autocannon	AC5	50.0	8.0	8.0	+ 5 Dmg. 	6.2	6.2
+SRM6 + +	Missile	SRM	SRM6	72.0	3.0	12.0	+ 4 Dmg. 	24.0	6.0
+AC/5 + + +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 4 Acc. + 20 Stb.Dmg.	5.6	5.6
+M Pulse +	Energy	Laser	MediumLaserPulse	45.0	2.0	18.0	- 2 Heat 	22.5	2.5
+ER M Laser +	Energy	Laser	MediumLaserER	40.0	1.0	20.0	+ 5 Dmg. 	40.0	2.0
+PPC + +	Energy	PPC	PPC	50.0	7.0	35.0	+ 30 Stb.Dmg. 	7.1	1.4
+AC/2 + +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 50% Crit. 	4.2	6.2
+S Laser + + +	AntiPersonnel	Laser	SmallLaser	30.0	0.5	6.0	+ 10 Dmg. + 50% Crit.	60.0	5.0
+AC/2	Ballistic	Autocannon	AC2	25.0	6.0	4.0	 	4.2	6.2
+LRM15 + +	Missile	LRM	LRM15	60.0	7.0	14.0	+ 2 Stb.Dmg. 	8.6	4.3
+AC/5	Ballistic	Autocannon	AC5	45.0	8.0	8.0	 	5.6	5.6
+S Laser +	AntiPersonnel	Laser	SmallLaser	20.0	0.5	6.0	+ 25% Crit. 	40.0	3.3
+MG + +	AntiPersonnel	MachineGun	MachineGun	30.0	0.0	0.0	+ 5 Shots - 0.5 Ton	inf	No Heat
+AC/10 + +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 20 Stb.Dmg. 	5.0	5.0
+LRM10 +	Missile	LRM	LRM10	40.0	5.0	10.0	+ 1 Stb.Dmg. 	8.0	4.0
+LRM15	Missile	LRM	LRM15	60.0	7.0	14.0	 	8.6	4.3
+SRM2 +	Missile	SRM	SRM2	20.0	1.0	4.0	+ 2 Dmg. 	20.0	5.0
+L Pulse +	Energy	Laser	LargeLaserPulse	60.0	6.0	30.0	+ 5 Dmg. - 1 Ton	10.0	2.0
+LRM20 + +	Missile	LRM	LRM20	80.0	10.0	18.0	+ 25% Crit. + 1 Stb.Dmg.	8.0	4.4
+SRM6 + +	Missile	SRM	SRM6	60.0	3.0	12.0	+ 2 Dmg. + 1 Stb.Dmg.	20.0	5.0
+LRM15 + +	Missile	LRM	LRM15	60.0	7.0	14.0	+ 25% Crit. + 1 Stb.Dmg.	8.6	4.3
+AC/20 +	Ballistic	Autocannon	AC20	110.0	14.0	24.0	+ 10 Dmg. 	7.9	4.6
+AC/5 + +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 50% Crit. 	5.6	5.6
+ER L Laser + +	Energy	Laser	LargeLaserER	50.0	4.0	25.0	+ 5 Dmg. - 1 Ton	12.5	2.0
+L Laser + +	Energy	Laser	LargeLaser	40.0	5.0	18.0	+ 3 Acc. 	8.0	2.2
+L Laser +	Energy	Laser	LargeLaser	40.0	5.0	18.0	+ 25% Crit. 	8.0	2.2
+SRM2 + +	Missile	SRM	SRM2	24.0	1.0	4.0	+ 4 Dmg. 	24.0	6.0
+Gauss Rifle +	Ballistic	Gauss	Gauss	75.0	13.0	5.0	- 2 Tons 	5.8	15.0
+LRM5 + +	Missile	LRM	LRM5	20.0	2.0	6.0	+ 25% Crit. + 1 Stb.Dmg.	10.0	3.3
+MG + +	AntiPersonnel	MachineGun	MachineGun	15.0	0.0	0.0	+ 50% Crit. - 0.5 Ton	inf	No Heat
+LRM10 + +	Missile	LRM	LRM10	40.0	5.0	10.0	+ 2 Stb.Dmg. 	8.0	4.0
+L Laser +	Energy	Laser	LargeLaser	40.0	5.0	18.0	+ 1 Acc. 	8.0	2.2
+LRM15 +	Missile	LRM	LRM15	60.0	7.0	14.0	+ 1 Stb.Dmg. 	8.6	4.3
+LRM10	Missile	LRM	LRM10	40.0	5.0	10.0	 	8.0	4.0
+L Laser + +	Energy	Laser	LargeLaser	45.0	5.0	18.0	+ 5 Dmg. + 1 Acc.	9.0	2.5
+AC/2 +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 10 Stb.Dmg. 	4.2	6.2
+LRM20 + +	Missile	LRM	LRM20	80.0	10.0	18.0	+ 2 Stb.Dmg. 	8.0	4.4
+SRM6 + + +	Missile	SRM	SRM6	72.0	3.0	12.0	+ 4 Dmg. + 2 Stb.Dmg.	24.0	6.0
+ER PPC	Energy	PPC	PPCER	60.0	7.0	45.0	 	8.6	1.3
+AC/10 + +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 50% Crit. 	5.0	5.0
+LRM20	Missile	LRM	LRM20	80.0	10.0	18.0	 	8.0	4.4
+LRM5 +	Missile	LRM	LRM5	20.0	2.0	6.0	+ 1 Stb.Dmg. 	10.0	3.3
+SRM6 +	Missile	SRM	SRM6	60.0	3.0	12.0	+ 2 Dmg. 	20.0	5.0
+LRM10 + +	Missile	LRM	LRM10	40.0	5.0	10.0	+ 25% Crit. + 1 Stb.Dmg.	8.0	4.0
+AC/2 +	Ballistic	Autocannon	AC2	30.0	6.0	4.0	+ 5 Dmg. 	5.0	7.5
+S Pulse + +	AntiPersonnel	Laser	SmallLaserPulse	45.0	1.0	10.0	+ 10 Dmg. - 2 Heat	45.0	4.5
+SRM4 + +	Missile	SRM	SRM4	48.0	2.0	8.0	+ 4 Dmg. 	24.0	6.0
+S Pulse	AntiPersonnel	Laser	SmallLaserPulse	35.0	1.0	12.0	 	35.0	2.9
+S Laser + +	AntiPersonnel	Laser	SmallLaser	30.0	0.5	6.0	+ 10 Dmg. 	60.0	5.0
+AC/20 + +	Ballistic	Autocannon	AC20	100.0	14.0	24.0	+ 50% Crit. 	7.1	4.2
+AC/5 +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 10 Stb.Dmg. 	5.6	5.6
+ER L Laser +	Energy	Laser	LargeLaserER	50.0	5.0	25.0	+ 5 Dmg. 	10.0	2.0
+M Laser +	Energy	Laser	MediumLaser	25.0	1.0	12.0	+1 Acc. 	25.0	2.1
+S Laser + +	AntiPersonnel	Laser	SmallLaser	20.0	0.5	6.0	+ 50% Crit. 	40.0	3.3
+ER M Laser	Energy	Laser	MediumLaserER	35.0	1.0	20.0	 	35.0	1.8
+SRM2 +	Missile	SRM	SRM2	16.0	1.0	4.0	+ 25% Crit. 	16.0	4.0
+LRM15 + + +	Missile	LRM	LRM15	60.0	7.0	14.0	+ 50% Crit. + 2 Stb.Dmg.	8.6	4.3
+S Laser + +	AntiPersonnel	Laser	SmallLaser	20.0	0.5	6.0	+ 3 Acc. 	40.0	3.3
+AC/20	Ballistic	Autocannon	AC20	100.0	14.0	24.0	 	7.1	4.2
+SRM2	Missile	SRM	SRM2	16.0	1.0	4.0	 	16.0	4.0
+PPC +	Energy	PPC	PPC	50.0	7.0	35.0	+ 15 Stb.Dmg. 	7.1	1.4
+M Laser	Energy	Laser	MediumLaser	25.0	1.0	12.0	 	25.0	2.1
+LRM20 + +	Missile	LRM	LRM20	80.0	10.0	18.0	+ 50% Crit. 	8.0	4.4
+AC/20 + +	Ballistic	Autocannon	AC20	120.0	14.0	24.0	+ 20 Dmg. 	8.6	5.0
+AC/5 +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 25% Crit. 	5.6	5.6
+ER L Laser	Energy	Laser	LargeLaserER	45.0	5.0	25.0	 	9.0	1.8
+L Laser + +	Energy	Laser	LargeLaser	50.0	5.0	18.0	+ 10 Dmg. 	10.0	2.8
+Gauss Rifle	Ballistic	Gauss	Gauss	75.0	15.0	5.0	 	5.0	15.0
+AC/20 +	Ballistic	Autocannon	AC20	100.0	14.0	24.0	+ 2 Acc. 	7.1	4.2
+M Laser +	Energy	Laser	MediumLaser	30.0	1.0	12.0	+ 5 Dmg. 	30.0	2.5
+S Laser + +	AntiPersonnel	Laser	SmallLaser	25.0	0.5	6.0	+ 5 Dmg. + 25% Crit.	50.0	4.2
+LRM5 + + +	Missile	LRM	LRM5	20.0	2.0	6.0	+ 50% Crit. + 2 Stb.Dmg.	10.0	3.3
+LRM20 +	Missile	LRM	LRM20	100.0	10.0	18.0	+ 1 Dmg. 	10.0	5.6
+SRM2 + +	Missile	SRM	SRM2	20.0	1.0	4.0	+ 2 Dmg. + 1 Stb.Dmg.	20.0	5.0
+LRM5 + +	Missile	LRM	LRM5	30.0	2.0	6.0	+ 2 Dmg. 	15.0	5.0
+AC/2 + +	Ballistic	Autocannon	AC2	25.0	6.0	4.0	+ 20 Stb.Dmg. 	4.2	6.2
+AC/10 + +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 25% Crit. + 10 Stb.Dmg.	5.0	5.0
+LRM15 +	Missile	LRM	LRM15	60.0	7.0	14.0	+ 25% Crit. 	8.6	4.3
+SRM4 + + +	Missile	SRM	SRM4	48.0	2.0	8.0	+ 4 Dmg. + 2 Stb.Dmg.	24.0	6.0
+S Laser +	AntiPersonnel	Laser	SmallLaser	20.0	0.5	6.0	+ 1 Acc. 	40.0	3.3
+AC/20 + +	Ballistic	Autocannon	AC20	100.0	14.0	24.0	+ 4 Acc. 	7.1	4.2
+SRM6 + +	Missile	SRM	SRM6	48.0	3.0	12.0	+ 50% Crit. 	16.0	4.0
+AC/5 + +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 2 Acc. + 10 Stb.Dmg.	5.6	5.6
+LRM10 +	Missile	LRM	LRM10	50.0	5.0	10.0	+ 1 Dmg. 	10.0	5.0
+AC/10 +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 25% Crit. 	5.0	5.0
+AC/10 + + +	Ballistic	Autocannon	AC10	60.0	12.0	12.0	+ 50% Crit. + 20 Stb.Dmg.	5.0	5.0
+PPC + +	Energy	PPC	PPC	60.0	7.0	35.0	+ 10 Dmg. 	8.6	1.7
+SRM4 +	Missile	SRM	SRM4	32.0	2.0	8.0	+ 25% Crit. 	16.0	4.0
+LRM15 + +	Missile	LRM	LRM15	90.0	7.0	14.0	+ 2 Dmg. 	12.9	6.4
+ER PPC +	Energy	PPC	PPCER	65.0	6.0	45.0	+ 5 Dmg. - 1 Ton	10.8	1.4
+LRM15 + +	Missile	LRM	LRM15	60.0	7.0	14.0	+ 50% Crit. 	8.6	4.3
+SRM4	Missile	SRM	SRM4	32.0	2.0	8.0	 	16.0	4.0
+AC/20 +	Ballistic	Autocannon	AC20	100.0	14.0	24.0	+ 25% Crit. 	7.1	4.2
+AC/5 + +	Ballistic	Autocannon	AC5	45.0	8.0	8.0	+ 20 Stb.Dmg. 	5.6	5.6
+Flamer	AntiPersonnel	Flamer	Flamer	5.0	1.0	0.0	* 4 Ammo 	5.0	No Heat
+SRM4 + +	Missile	SRM	SRM4	40.0	2.0	8.0	+ 2 Dmg. + 1 Stb.Dmg.	20.0	5.0
+LRM10 + + +	Missile	LRM	LRM10	40.0	5.0	10.0	+ 50% Crit. + 2 Stb.Dmg.	8.0	4.0
+SRM2 + + +	Missile	SRM	SRM2	24.0	1.0	4.0	+ 4 Dmg. + 2 Stb.Dmg.	24.0	6.0
+AC/10	Ballistic	Autocannon	AC10	60.0	12.0	12.0	 	5.0	5.0
+LRM20 +	Missile	LRM	LRM20	80.0	10.0	18.0	+ 25% Crit. 	8.0	4.4
+M Pulse + +	Energy	Laser	MediumLaserPulse	50.0	2.0	16.0	- 4 Heat + 1 Acc.	25.0	3.1
+M Laser +	Energy	Laser	MediumLaser	25.0	1.0	12.0	 + 25% Crit.	25.0	2.1
+S Pulse +	AntiPersonnel	Laser	SmallLaserPulse	40.0	1.0	11.0	+ 5 Dmg. - 1 Heat	40.0	3.6
+PPC + +	Energy	PPC	PPC	50.0	7.0	35.0	+ 4 Acc. 	7.1	1.4
+AC/2 + +	Ballistic	Autocannon	AC2	35.0	6.0	4.0	+ 10 Dmg. 	5.8	8.8
+MML-9	Missile	LRM	LRM20	54.0	6.0	15.0	 	9.0	3.6
+Thunderbolt 10	Missile	LRM	LRM5	65.0	8.0	15.0	 	8.1	4.3
+ATM 3	Missile	LRM	LRM5	36.0	1.5	10.0	 	24.0	3.6
+LRM5 (C)	Missile	LRM	LRM5	20.0	1.0	6.0	 	20.0	3.3
+Imp Heavy M Laser (C)	Energy	Laser	MediumLaserER	50.0	1.0	30.0	 	50.0	1.7
+iATM 9	Missile	LRM	LRM15	126.0	5.0	20.0	 	25.2	6.3
+Imp Heavy L Laser (C)	Energy	Laser	LargeLaserER	75.0	4.0	35.0	 	18.8	2.1
+MRM30	Missile	LRM	LRM15	120.0	10.0	15.0	 	12.0	8.0
+MRM10	Missile	LRM	LRM5	40.0	3.0	6.0	 	13.3	6.7
+MML-5	Missile	LRM	LRM10	30.0	3.0	9.0	 	10.0	3.3
+UAC/2 (C)	Ballistic	Autocannon	UAC2	50.0	5.0	8.0	 	10.0	6.2
+Light PPC	Energy	PPC	PPC	25.0	3.0	15.0	1 Evasion Ignore No Recoil	8.3	1.7
+Volcano Flamer	AntiPersonnel	Flamer	Flamer	5.0	1.0	0.0	* 40 Ammo 	5.0	No Heat
+SRM4 Streak (C)	Missile	SRM	SRM4	32.0	2.0	8.0	Ignores 2 Evasion, + 2 Acc. 	16.0	4.0
+Inferno iATM 3	Missile	LRM	LRM5	30.0	2.0	15.0	 	15.0	2.0
+ATM 12	Missile	LRM	LRM20	144.0	7.0	25.0	 	20.6	5.8
+Light Gauss Rifle	Ballistic	Gauss	Gauss	60.0	10.0	5.0	 	6.0	12.0
+Plasma PPC	Energy	PPC	PPC	30.0	15.0	30.0	 	2.0	1.0
+LB 20-X (C)	Ballistic	Autocannon	LB20X	120.0	12.0	20.0	 	10.0	6.0
+RAC/5	Ballistic	Autocannon	AC5	270.0	10.0	48.0	 	27.0	5.6
+SRM6 Streak	Missile	SRM	SRM6	48.0	4.5	12.0	Ignores 2 Evasion, + 2 Acc. 	10.7	4.0
+RAC/2	Ballistic	Autocannon	AC5	150.0	8.0	24.0	 	18.8	6.2
+ASC/2	Ballistic	Autocannon	AC2	80.0	3.0	6.0	 	26.7	13.3
+ER M Pulse (C)	Energy	Laser	MediumLaserPulse	45.0	2.0	22.0	 	22.5	2.0
+Heavy Gauss Rifle	Ballistic	Gauss	Gauss	140.0	18.0	10.0	 	7.8	14.0
+Binary Laser	Energy	Laser	LargeLaser	100.0	9.0	36.0	 	11.1	2.8
+Plasma Rifle +	Energy	PPC	PPC	30.0	6.0	22.0	-10 Dmg. +10 Heat Dmg.	5.0	1.4
+Heavy PPC	Energy	PPC	PPC	80.0	10.0	45.0	 	8.0	1.8
+Heavy L Laser (C)	Energy	Laser	LargeLaserER	75.0	4.0	35.0	 	18.8	2.1
+SRM2 (C)	Missile	SRM	SRM2	16.0	0.5	4.0	 	32.0	4.0
+MML-3	Missile	LRM	LRM5	18.0	1.5	6.0	 	12.0	3.0
+Silver Bullet Gauss Rifle	Ballistic	Gauss	Gauss	160.0	15.0	12.0	 	10.7	13.3
+ATM 9	Missile	LRM	LRM15	108.0	5.0	20.0	 	21.6	5.4
+MG + +	AntiPersonnel	MachineGun	MachineGun	20.0	0.5	0.0	+ 25% Crit. +1 Dmg.	40.0	No Heat
+Thunderbolt 5	Missile	LRM	LRM5	50.0	4.0	9.0	 	12.5	5.6
+APG Rifle	AntiPersonnel	Gauss	Gauss	25.0	0.5	1.0	 	50.0	25.0
+ER S Laser (C)	AntiPersonnel	Laser	SmallLaserER	35.0	0.5	10.0	 	70.0	3.5
+SRM6 (C)	Missile	SRM	SRM6	48.0	1.5	12.0	 	32.0	4.0
+L X-Pulse	Energy	Laser	LargeLaserPulse	60.0	7.0	40.0	 	8.6	1.5
+Thunderbolt 20	Missile	LRM	LRM5	125.0	17.0	24.0	 	7.4	5.2
+Plasma Rifle +	Energy	PPC	PPC	45.0	6.0	22.0	+5 Dmg. +5 Ammo	7.5	2.0
+ER Large Laser (C)	Energy	Laser	LargeLaserER	55.0	4.0	25.0	 	13.8	2.2
+MG +	AntiPersonnel	MachineGun	MachineGun	15.0	0.5	0.0	+30m Range 	30.0	No Heat
+LRM15 (C)	Missile	LRM	LRM15	60.0	3.5	14.0	 	17.1	4.3
+RL20	Missile	SRM	SRM6	80.0	1.5	15.0	 	53.3	5.3
+Heavy M Laser (C)	Energy	Laser	MediumLaserER	50.0	1.0	30.0	 	50.0	1.7
+MRM20	Missile	LRM	LRM10	80.0	7.0	12.0	 	11.4	6.7
+Plasma Rifle	Energy	PPC	PPC	40.0	6.0	22.0	 	6.7	1.8
+UAC/10 (C)	Ballistic	Autocannon	UAC10	120.0	10.0	18.0	 	12.0	6.7
+S Pulse (C)	AntiPersonnel	Laser	SmallLaserPulse	40.0	1.0	12.0	 	40.0	3.3
+RL10	Missile	SRM	SRM2	40.0	0.5	9.0	 	80.0	4.4
+Gauss Rifle (C)	Ballistic	Gauss	Gauss	75.0	12.0	5.0	 	6.2	15.0
+ATM 3 (C)	Missile	LRM	LRM5	36.0	1.5	10.0	 	24.0	3.6
+LRM10 (C)	Missile	LRM	LRM10	40.0	2.5	10.0	 	16.0	4.0
+LRM5 (C)	Missile	LRM	LRM5	20.0	1.0	6.0	 	20.0	3.3
+S Pulse (C)	AntiPersonnel	Laser	SmallLaserPulse	40.0	1.0	12.0	 	40.0	3.3
+SRM2 (C)	Missile	SRM	SRM2	16.0	0.5	4.0	 	32.0	4.0
+ATM 9 (C)	Missile	LRM	LRM15	108.0	5.0	20.0	 	21.6	5.4
+Heavy Gauss Rifle +	Ballistic	Gauss	Gauss	185.0	16.0	6.0	 	11.6	30.8
+ER Large Laser (C)	Energy	Laser	LargeLaserER	55.0	4.0	25.0	 	13.8	2.2
+SRM4 (C)	Missile	SRM	SRM4	32.0	1.0	8.0	 	32.0	4.0
+Micro Pulse (C)	AntiPersonnel	Laser	SmallLaserPulse	14.0	0.5	6.0	 	28.0	2.3
+Light PPC	Energy	PPC	PPC	25.0	3.0	15.0	1 Evasion Ignore No Recoil	8.3	1.7
+AC/10	Ballistic	Autocannon	AC10	60.0	20.0	60.0	 	3.0	1.0
+Light Gauss Rifle	Ballistic	Gauss	Gauss	50.0	12.0	5.0	 	4.2	10.0
+ER M Laser (C)	Energy	Laser	MediumLaserER	40.0	1.0	20.0	 	40.0	2.0
+L Pulse (C)	Energy	Laser	LargeLaserPulse	60.0	6.0	30.0	 	10.0	2.0
+BOOMSTICK! LBX/20	Ballistic	Autocannon	LB20X	240.0	15.0	40.0	 	16.0	6.0
+Snub PPC	Energy	PPC	PPCSnub	75.0	6.0	35.0	 	12.5	2.1
+Heavy Gauss Rifle	Ballistic	Gauss	Gauss	165.0	18.0	10.0	 	9.2	16.5
+ATM 6 (C)	Missile	LRM	LRM10	72.0	3.5	15.0	 	20.6	4.8
+M Pulse (C)	Energy	Laser	MediumLaserPulse	45.0	2.0	20.0	 	22.5	2.2
+LRM20 (C)	Missile	LRM	LRM20	80.0	5.0	18.0	 	16.0	4.4
+LRM15 (C)	Missile	LRM	LRM15	60.0	3.5	14.0	 	17.1	4.3
+ATM 12 (C)	Missile	LRM	LRM20	144.0	7.0	25.0	 	20.6	5.8
+ER S Laser(C)	AntiPersonnel	Laser	SmallLaserER	35.0	0.5	10.0	 	70.0	3.5
+SRM6 (C)	Missile	SRM	SRM6	48.0	1.5	12.0	 	32.0	4.0
+ER Micro Laser(C)	AntiPersonnel	Laser	SmallLaserER	14.0	0.25	5.0	 	56.0	2.8
+Plasma Rifle + +	Energy	PPC	PPC	30.0	6.0	22.0	-10 Dmg +10 Structure Dmg, +10 Heat Dmg	5.0	1.4
+LB 10-X (C)	Ballistic	Autocannon	LB10X	80.0	10.0	10.0	 	8.0	8.0
+MRM30 +	Missile	LRM	LRM15	120.0	9.0	13.0	+ 1 Stb.Dmg. - 2 Heat, - 1 Ton	13.3	9.2
+SRM2 - 1 Shot	Missile	SRM	SRM2	16.0	1.0	4.0	 	16.0	4.0
+iATM 3	Missile	LRM	LRM5	42.0	1.5	10.0	 	28.0	4.2
+SRM4 1S	Missile	SRM	SRM4	32.0	1.0	4.0	 	32.0	8.0
+Plasma Rifle + + +	Energy	PPC	PPC	45.0	6.0	22.0	+15 Structure Dmg, +5 Dmg, +10 Heat Dmg. +5 Ammo	7.5	2.0
+ER M Laser (C)	Energy	Laser	MediumLaserER	40.0	1.0	20.0	 	40.0	2.0
+M Laser -	Energy	Laser	MediumLaser	25.0	1.0	12.0	-2 Acc. 	25.0	2.1
+Gauss Rifle (C)	Ballistic	Gauss	Gauss	75.0	12.0	5.0	 	6.2	15.0
+UAC/5 (C)	Ballistic	Autocannon	UAC5	90.0	7.0	16.0	 	12.9	5.6
+IMP iATM 3	Missile	LRM	LRM5	6.0	2.0	15.0	 	3.0	0.4
+MRM40	Missile	LRM	LRM20	160.0	12.0	18.0	 	13.3	8.9
+VSM Pulse	Energy	Laser	MediumLaserPulse	105.0	4.0	35.0	 	26.2	3.0
+RL15	Missile	SRM	SRM4	60.0	1.0	12.0	 	60.0	5.0
+SRM6 Streak (C)	Missile	SRM	SRM6	48.0	3.0	12.0	Ignores 2 Evasion, + 2 Acc. 	16.0	4.0
+M X-Pulse	Energy	Laser	MediumLaserPulse	40.0	2.0	25.0	 	20.0	1.6
+VSS Pulse	AntiPersonnel	Laser	SmallLaserPulse	75.0	2.0	25.0	 	37.5	3.0
+NARC Beacon (C)	Missile	SRM	Narc	1.0	2.0	0.0	+ 25% Dmg. Mark * Missile	0.5	No Heat
+iATM 6	Missile	LRM	LRM10	84.0	3.5	15.0	 	24.0	5.6
+ER PPC (C)	Energy	PPC	PPCER	80.0	6.0	45.0	 	13.3	1.8
+SRM4 (C)	Missile	SRM	SRM4	32.0	1.0	8.0	 	32.0	4.0
+Plasma Cannon	Energy	PPC	PPC	2.0	3.0	15.0	+10 Heat Dmg. +5 Structure Dmg.	0.7	0.1
+M Pulse (C)	Energy	Laser	MediumLaserPulse	45.0	2.0	20.0	 	22.5	2.2
+HAG/30	Ballistic	Gauss	Gauss	165.0	13.0	15.0	 	12.7	11.0
+MRM40 +	Missile	LRM	LRM20	160.0	11.0	16.0	+ 1 Stb.Dmg. - 2 Heat, - 1 Ton	14.5	10.0
+Flamer (C)	AntiPersonnel	Flamer	Flamer	5.0	0.5	0.0	* 4 Ammo 	10.0	No Heat
+MG (C)	AntiPersonnel	MachineGun	MachineGun	15.0	0.25	0.0	 	60.0	No Heat
+VSL Pulse	Energy	Laser	LargeLaserPulse	135.0	9.0	40.0	 	15.0	3.4
+L Pulse (C)	Energy	Laser	LargeLaserPulse	60.0	6.0	30.0	 	10.0	2.0
+Thunderbolt 15	Missile	LRM	LRM5	90.0	13.0	21.0	 	6.9	4.3
+SRM2 Streak	Missile	SRM	SRM2	16.0	1.5	4.0	Ignores 2 Evasion, + 2 Acc. 	10.7	4.0
+ATM 6	Missile	LRM	LRM10	72.0	3.5	15.0	 	20.6	4.8
+MG + + +	AntiPersonnel	MachineGun	MachineGun	25.0	0.5	0.0	+ 50% Crit. + 2 Dmg.	50.0	No Heat
+MRM10 +	Missile	LRM	LRM5	40.0	2.5	5.0	+ 1 Stb.Dmg. - 1 Heat, - 0.5 Tons	16.0	8.0
+LRM10 (C)	Missile	LRM	LRM10	40.0	2.5	10.0	 	16.0	4.0
+L Laser -	Energy	Laser	LargeLaser	40.0	5.0	27.0	+ 50% Heat 	8.0	1.5
+MG +	AntiPersonnel	MachineGun	MachineGun	15.0	0.5	0.0	+ 25% Crit. 	30.0	No Heat
+Plasma Rifle +	Energy	PPC	PPC	40.0	6.0	22.0	+5 Structure Dmg. 	6.7	1.8
+Binary Laser +	Energy	Laser	LargeLaser	110.0	9.0	36.0	+ 5 Dmg. 	12.2	3.1
+XMD/40	Ballistic	Gauss	Gauss	300.0	20.0	45.0	 	15.0	6.7
+UAC/20 (C)	Ballistic	Autocannon	UAC20	200.0	12.0	40.0	 	16.7	5.0
+SRM2 Streak (C)	Missile	SRM	SRM2	16.0	1.0	4.0	Ignores 2 Evasion, + 2 Acc. 	16.0	4.0
+Juggernaught MG Array	AntiPersonnel	MachineGun	MachineGun	60.0	2.0	1.0	 	30.0	60.0
+iATM 12	Missile	LRM	LRM20	168.0	7.0	25.0	 	24.0	6.7
+Heavy S Laser (C)	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	15.0	 	80.0	2.7
+LB 2-X (C)	Ballistic	Autocannon	LB2X	48.0	5.0	2.0	 	9.6	24.0
+ER Micro Laser +	AntiPersonnel	Laser	SmallLaserER	14.0	0.25	5.0	 	56.0	2.8
+HMG (C)	AntiPersonnel	MachineGun	MachineGun	20.0	0.5	0.0	 	40.0	No Heat
+Imp Heavy S Laser (C)	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	15.0	 	80.0	2.7
+HAG/20	Ballistic	Gauss	Gauss	135.0	10.0	10.0	 	13.5	13.5
+TAG (C)	Energy	Laser	TAG	1.0	0.5	0.0	+ 10% Dmg. Mark * Energy, Ballistic	2.0	No Heat
+MRM20 +	Missile	LRM	LRM10	80.0	6.0	10.0	+ 1 Stb.Dmg. - 2 Heat, - 1 Ton	13.3	8.0
+Heavy Gauss Rifle +	Ballistic	Gauss	Gauss	160.0	16.0	10.0	+ 20 Dmg., + 10 Stb.Dmg. - 2 Tons, - 2 Slots	10.0	16.0
+MML-7	Missile	LRM	LRM15	42.0	4.5	12.0	 	9.3	3.5
+HVAC/10	Ballistic	Autocannon	AC10	60.0	14.0	12.0	 	4.3	5.0
+Micro Pulse +	AntiPersonnel	Laser	SmallLaserPulse	14.0	0.5	6.0	 	28.0	2.3
+Plasma Rifle +	Energy	PPC	PPC	40.0	6.0	15.0	+10 Ammo -7 Heat	6.7	2.7
+Plasma Cannon	Energy	PPC	PPC	2.0	3.0	15.0	 	0.7	0.1
+LMG (C)	AntiPersonnel	MachineGun	MachineGun	10.0	0.25	0.0	 	40.0	No Heat
+HAG/40	Ballistic	Gauss	Gauss	195.0	16.0	15.0	 	12.2	13.0
+SRM4 Streak	Missile	SRM	SRM4	32.0	3.0	8.0	Ignores 2 Evasion, + 2 Acc. 	10.7	4.0
+Tyrannosaurus AC/20	Ballistic	Autocannon	AC20	140.0	12.0	20.0	 	11.7	7.0
+HVAC/5	Ballistic	Autocannon	AC5	45.0	12.0	8.0	 	3.8	5.6
+PPC -	Energy	PPC	PPC	50.0	7.0	35.0	-1 Acc -60 Stability to self	7.1	1.4
+HVAC/2	Ballistic	Autocannon	AC2	25.0	8.0	4.0	 	3.1	6.2
+LB 5-X (C)	Ballistic	Autocannon	LB5X	60.0	7.0	6.0	 	8.6	10.0
+ER L Pulse (C)	Energy	Laser	LargeLaserPulse	60.0	6.0	35.0	 	10.0	1.7
+LRM20 (C)	Missile	LRM	LRM20	80.0	5.0	18.0	 	16.0	4.4
+VSS Pulse +	AntiPersonnel	Laser	SmallLaserPulse	90.0	2.0	22.0	+ 5 Dmg. - 3 Heat	45.0	4.1
+RAC/5 + +	Ballistic	Autocannon	AC5	270.0	10.0	40.0	+ 5 Stb.Dmg. - 8 Heat	27.0	6.8
+ATM 6 (C) + +	Missile	LRM	LRM10	72.0	3.5	15.0	+ 1 Stb.Dmg. + 2 Acc.	20.6	4.8
+VSL Pulse +	Energy	Laser	LargeLaserPulse	150.0	9.0	35.0	+ 5 Dmg. - 5 Heat	16.7	4.3
+Imp Heavy L Laser (C) +	Energy	Laser	LargeLaserER	75.0	4.0	35.0	- 1 Slot 	18.8	2.1
+Light PPC + + +	Energy	PPC	PPC	50.0	3.0	15.0	+ 25 Dmg. 1 Evasion Ignore	16.7	3.3
+MML-7 +	Missile	LRM	LRM15	56.0	4.5	12.0	+ 2 Dmg. + 1.5 Stb.Dmg.	12.4	4.7
+SRM2 (C) +	Missile	SRM	SRM2	20.0	0.5	4.0	+ 2 Dmg. 	40.0	5.0
+Thunderbolt 15 +	Missile	LRM	LRM5	105.0	12.0	21.0	+ 15 Dmg. - 1 Ton	8.8	5.0
+ER M Pulse (C) +	Energy	Laser	MediumLaserPulse	50.0	2.0	20.0	+ 5 Dmg. - 2 Heat	25.0	2.5
+HAG/40 +	Ballistic	Gauss	Gauss	195.0	16.0	15.0	+ 10% Crit. + 2 Acc.	12.2	13.0
+Thunderbolt 10 + +	Missile	LRM	LRM5	85.0	7.0	15.0	+ 20 Dmg. - 1 Ton	12.1	5.7
+ER PPC (C) + + +	Energy	PPC	PPCER	100.0	6.0	35.0	+ 20 Dmg. - 10 Heat	16.7	2.9
+UAC/20 (C) + +	Ballistic	Autocannon	UAC20	280.0	12.0	40.0	+ 40 Dmg. - 4 Recoil	23.3	7.0
+Gauss Rifle + + +	Ballistic	Gauss	Gauss	95.0	11.0	5.0	+ 20 Dmg., + 10 Stb.Dmg. - 4 Tons, - 1 Slot	8.6	19.0
+SRM2 Streak (C) + +	Missile	SRM	SRM2	20.0	0.5	3.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Heat, - 0.5 Tons	40.0	6.7
+UAC/10 (C) +	Ballistic	Autocannon	UAC10	140.0	10.0	18.0	+ 10 Dmg. + 10 Stb.Dmg.	14.0	7.8
+ATM 12 (C) +	Missile	LRM	LRM20	144.0	7.0	25.0	+ 1 Stb.Dmg. 	20.6	5.8
+ER PPC (C) + +	Energy	PPC	PPCER	90.0	6.0	35.0	+ 10 Dmg. - 10 Heat	15.0	2.6
+iATM 12 + +	Missile	LRM	LRM20	168.0	7.0	25.0	+ 2 Stb.Dmg. + 100m Range	24.0	6.7
+ER M Laser (C) +	Energy	Laser	MediumLaserER	40.0	1.0	15.0	- 5 Heat 	40.0	2.7
+Gauss Rifle (C) + +	Ballistic	Gauss	Gauss	115.0	10.0	5.0	+ 40 Dmg. - 2 Tons	11.5	23.0
+ER Large Laser (C) +	Energy	Laser	LargeLaserER	55.0	4.0	20.0	- 5 Heat 	13.8	2.8
+RAC/2 +	Ballistic	Autocannon	AC5	150.0	7.5	20.0	- 4 Heat - 0.5 Tons	20.0	7.5
+Light PPC + +	Energy	PPC	PPC	45.0	3.0	15.0	+ 20 Dmg. 1 Evasion Ignore	15.0	3.0
+ER L Pulse (C) + +	Energy	Laser	LargeLaserPulse	80.0	6.0	30.0	+ 20 Dmg. - 5 Heat	13.3	2.7
+LMG (C) +	AntiPersonnel	MachineGun	MachineGun	20.0	0.0	0.0	+ 2 Dmg. - 0.25 Ton	inf	No Heat
+MML-5 +	Missile	LRM	LRM10	40.0	3.0	9.0	+ 2 Dmg. + 1.5 Stb.Dmg.	13.3	4.4
+iATM 6 + +	Missile	LRM	LRM10	84.0	3.5	15.0	+ 2 Stb.Dmg. + 100m Range	24.0	5.6
+Imp Heavy M Laser (C) + +	Energy	Laser	MediumLaserER	50.0	1.0	20.0	- 10 Heat 	50.0	2.5
+iATM 3 +	Missile	LRM	LRM5	42.0	1.5	10.0	+ 2 Stb.Dmg. 	28.0	4.2
+S Pulse (C) +	AntiPersonnel	Laser	SmallLaserPulse	40.0	1.0	12.0	+ 5 Dmg. 	40.0	3.3
+MML-9 + 	Missile	LRM	LRM20	72.0	6.0	15.0	+ 2 Dmg. + 1.5 Stb.Dmg.	12.0	4.8
+PPC + + +	Energy	PPC	PPC	70.0	7.0	30.0	+ 20 Dmg. - 5 Heat	10.0	2.3
+ATM 3 (C) + +	Missile	LRM	LRM5	36.0	1.5	10.0	+ 1 Stb.Dmg. + 2 Acc.	24.0	3.6
+Thunderbolt 20 + +	Missile	LRM	LRM5	165.0	15.0	24.0	+ 40 Dmg. - 2 Tons	11.0	6.9
+Heavy PPC + + +	Energy	PPC	PPC	140.0	10.0	45.0	+ 60 Dmg. + 40 Stb.Dmg.	14.0	3.1
+VSM Pulse + +	Energy	Laser	MediumLaserPulse	135.0	4.0	30.0	+ 10 Dmg. - 5 Heat	33.8	4.5
+L Pulse (C) + +	Energy	Laser	LargeLaserPulse	80.0	6.0	25.0	+ 20 Dmg. - 5 Heat	13.3	3.2
+SRM4 Streak + +	Missile	SRM	SRM4	48.0	2.0	8.0	+4 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Ton	24.0	6.0
+LB 5-X (C) + +	Ballistic	Autocannon	LB5X	100.0	7.0	6.0	+ 4 Dmg. + 4 Stb.Dmg.	14.3	16.7
+HAG/20 + +	Ballistic	Gauss	Gauss	135.0	10.0	10.0	+ 20% Crit. + 4 Acc.	13.5	13.5
+LRM15 (C) +	Missile	LRM	LRM15	75.0	3.5	11.0	+ 1 Dmg. - 3 Heat	21.4	6.8
+LRM10 (C) + +	Missile	LRM	LRM10	50.0	2.5	8.0	+ 1 Dmg., + 1 Stb.Dmg. - 2 Heat	20.0	6.2
+LRM5 (C) + +	Missile	LRM	LRM5	25.0	1.0	5.0	+ 1 Dmg., + 1 Stb.Dmg. - 1 Heat	25.0	5.0
+LB 20-X (C) +	Ballistic	Autocannon	LB20X	150.0	12.0	20.0	+ 5 Dmg. + 4 Stb.Dmg.	12.5	7.5
+MG (C) + +	AntiPersonnel	MachineGun	MachineGun	35.0	0.0	0.0	+ 4 Dmg. - 0.25 Ton	inf	No Heat
+MRM40 + + +	Missile	LRM	LRM20	160.0	9.0	14.0	+ 1.5 Stb.Dmg. - 4 Heat, - 3 Tons	17.8	11.4
+ATM 9 (C) + +	Missile	LRM	LRM15	108.0	5.0	20.0	+ 1 Stb.Dmg. + 2 Acc.	21.6	5.4
+SRM6 (C) + + +	Missile	SRM	SRM6	60.0	1.5	9.0	+ 2 Dmg., + 1 Stb.Dmg. - 3 Heat	40.0	6.7
+Binary Laser + +	Energy	Laser	LargeLaser	120.0	8.0	33.0	+ 10 Dmg., - 3 Heat - 1 Ton	15.0	3.6
+SRM4 Streak (C) + +	Missile	SRM	SRM4	40.0	1.5	6.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 2 Heat, - 0.5 Tons	26.7	6.7
+SRM4 (C) +	Missile	SRM	SRM4	40.0	1.0	8.0	+ 2 Dmg. 	40.0	5.0
+M X-Pulse + +	Energy	Laser	MediumLaserPulse	55.0	2.0	22.0	+ 15 Dmg. - 3 Heat	27.5	2.5
+ER S Laser (C) + +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	10.0	+ 5 Dmg. + 25% Crit.	80.0	4.0
+M Pulse (C) +	Energy	Laser	MediumLaserPulse	50.0	2.0	18.0	+ 5 Dmg. - 2 Heat	25.0	2.8
+UAC/5 (C) +	Ballistic	Autocannon	UAC5	100.0	7.0	16.0	+ 5 Damage - 2 Recoil	14.3	6.2
+iATM 9 +	Missile	LRM	LRM15	126.0	5.0	20.0	+ 2 Stb.Dmg. 	25.2	6.3
+UAC/2 (C) + +	Ballistic	Autocannon	UAC2	70.0	4.0	8.0	+ 10 Dmg. - 1 Ton	17.5	8.8
+MML-3 +	Missile	LRM	LRM5	24.0	1.5	6.0	+ 2 Dmg. + 1.5 Stb.Dmg.	16.0	4.0
+SRM2 Streak +	Missile	SRM	SRM2	20.0	1.5	4.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. 	13.3	5.0
+ER PPC + + +	Energy	PPC	PPCER	80.0	6.0	40.0	+ 20 Dmg. - 1 Ton, - 5 Heat	13.3	2.0
+LB 10-X (C) + +	Ballistic	Autocannon	LB10X	128.0	10.0	10.0	+ 6 Dmg. + 4 Stb.Dmg.	12.8	12.8
+SRM6 (C) + +	Missile	SRM	SRM6	60.0	1.5	9.0	+ 2 Dmg. - 3 Heat	40.0	6.7
+Binary Laser + + +	Energy	Laser	LargeLaser	130.0	7.0	33.0	+ 15 Dmg., - 3 Heat - 2 Tons, - 1 Slot	18.6	3.9
+MRM40 + +	Missile	LRM	LRM20	160.0	10.0	14.0	+ 1 Stb.Dmg. - 4 Heat, - 2 Tons	16.0	11.4
+SRM6 Streak +	Missile	SRM	SRM6	60.0	4.5	12.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. 	13.3	5.0
+LRM20 (C) +	Missile	LRM	LRM20	100.0	5.0	14.0	+ 1 Dmg. - 4 Heat	20.0	7.1
+Imp Heavy S Laser (C) + +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	12.0	- 2 Heat + 60m Range	80.0	3.3
+Thunderbolt 5 +	Missile	LRM	LRM5	55.0	4.0	9.0	+ 5 Dmg. 	13.8	6.1
+SRM6 Streak (C) +	Missile	SRM	SRM6	60.0	2.5	9.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 3 Heat	24.0	6.7
+HMG (C) +	AntiPersonnel	MachineGun	MachineGun	35.0	0.5	0.0	+ 3 Dmg. 	70.0	No Heat
+LB 2-X (C) + +	Ballistic	Autocannon	LB2X	72.0	4.0	2.0	+ 2 Dmg. - 1 Ton	18.0	36.0
+HAG/30 + +	Ballistic	Gauss	Gauss	165.0	13.0	15.0	+ 20% Crit. + 4 Acc.	12.7	11.0
+Silver Bullet Gauss Rifle +	Ballistic	Gauss	Gauss	180.0	14.0	12.0	+ 10 Dmg. - 1 Ton	12.9	15.0
+Heavy PPC + +	Energy	PPC	PPC	120.0	10.0	45.0	+ 40 Dmg. + 20 Stb.Dmg.	12.0	2.7
+L X-Pulse +	Energy	Laser	LargeLaserPulse	70.0	7.0	40.0	+10 Dmg. 	10.0	1.8
+SRM6 Streak (C) + +	Missile	SRM	SRM6	60.0	2.0	9.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 3 Heat, - 1 Ton	30.0	6.7
+Imp Heavy S Laser (C) +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	12.0	- 3 Heat 	80.0	3.3
+Thunderbolt 5 + +	Missile	LRM	LRM5	60.0	4.0	9.0	+ 10 Dmg. 	15.0	6.7
+HAG/30 +	Ballistic	Gauss	Gauss	165.0	13.0	15.0	+ 10% Crit. + 2 Acc.	12.7	11.0
+LB 2-X (C) +	Ballistic	Autocannon	LB2X	72.0	4.5	2.0	+ 2 Dmg. - 0.5 Tons	16.0	36.0
+HMG (C) + +	AntiPersonnel	MachineGun	MachineGun	50.0	0.5	0.0	+ 6 Dmg. + 60m Range	100.0	No Heat
+Silver Bullet Gauss Rifle + +	Ballistic	Gauss	Gauss	200.0	14.0	12.0	+ 20 Dmg. - 1 Ton, - 1 Slot	14.3	16.7
+Heavy PPC +	Energy	PPC	PPC	100.0	10.0	45.0	+ 20 Dmg. + 10 Stb.Dmg.	10.0	2.2
+L X-Pulse + +	Energy	Laser	LargeLaserPulse	80.0	7.0	40.0	+20 Dmg. 	11.4	2.0
+iATM 9 + +	Missile	LRM	LRM15	126.0	5.0	20.0	+ 2 Stb.Dmg. + 100m Range	25.2	6.3
+UAC/5 (C) + +	Ballistic	Autocannon	UAC5	110.0	7.0	16.0	+ 10 Damage - 2 Recoil	15.7	6.9
+UAC/2 (C) +	Ballistic	Autocannon	UAC2	70.0	4.5	8.0	+ 10 Dmg. - 0.5 Tons	15.6	8.8
+MML-3 + +	Missile	LRM	LRM5	30.0	1.5	6.0	+ 4 Dmg. + 3 Stb.Dmg.	20.0	5.0
+SRM2 Streak + +	Missile	SRM	SRM2	24.0	1.0	4.0	+4 Dmg., Ignores 2 Evasion, + 2 Acc. - 0.5 Tons	24.0	6.0
+MRM10 + +	Missile	LRM	LRM5	40.0	2.0	5.0	+ 1 Stb.Dmg. - 1 Heat, - 1 Ton	20.0	8.0
+SRM4 (C) + + +	Missile	SRM	SRM4	40.0	1.0	6.0	+ 2 Dmg., + 1 Stb.Dmg. - 2 Heat	40.0	6.7
+LB 10-X (C) +	Ballistic	Autocannon	LB10X	112.0	10.0	10.0	+ 4 Dmg. + 2 Stb.Dmg.	11.2	11.2
+SRM6 (C) +	Missile	SRM	SRM6	60.0	1.5	12.0	+ 2 Dmg. 	40.0	5.0
+SRM6 Streak + +	Missile	SRM	SRM6	72.0	3.5	12.0	+ 4 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Ton	20.6	6.0
+LRM20 (C) + +	Missile	LRM	LRM20	100.0	5.0	14.0	+ 1 Dmg., + 1 Stb.Dmg. - 4 Heat	20.0	7.1
+ATM 9 (C) +	Missile	LRM	LRM15	108.0	5.0	20.0	+ 1 Stb.Dmg. 	21.6	5.4
+SRM4 (C) + +	Missile	SRM	SRM4	40.0	1.0	6.0	+ 2 Dmg. - 2 Heat	40.0	6.7
+SRM4 Streak (C) +	Missile	SRM	SRM4	40.0	2.0	6.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 2 Heat	20.0	6.7
+MRM10 + + +	Missile	LRM	LRM5	40.0	2.0	5.0	+ 1.5 Stb.Dmg. - 1 Heat, - 1 Ton	20.0	8.0
+M X-Pulse +	Energy	Laser	MediumLaserPulse	45.0	2.0	22.0	+ 5 Dmg. - 3 Heat	22.5	2.0
+ER S Laser (C) +	AntiPersonnel	Laser	SmallLaserER	35.0	0.5	10.0	+ 5 Dmg. 	70.0	3.5
+M Pulse (C) + +	Energy	Laser	MediumLaserPulse	55.0	2.0	16.0	+ 10 Dmg. - 4 Heat	27.5	3.4
+Thunderbolt 20 +	Missile	LRM	LRM5	145.0	16.0	24.0	+ 20 Dmg. - 1 Ton	9.1	6.0
+VSM Pulse +	Energy	Laser	MediumLaserPulse	120.0	4.0	30.0	+ 5 Dmg. - 5 Heat	30.0	4.0
+SRM4 Streak +	Missile	SRM	SRM4	40.0	3.0	8.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. 	13.3	5.0
+L Pulse (C) +	Energy	Laser	LargeLaserPulse	70.0	6.0	25.0	+ 10 Dmg. - 5 Heat	11.7	2.8
+LB 5-X (C) +	Ballistic	Autocannon	LB5X	80.0	7.0	6.0	+ 2 Dmg. + 4 Stb.Dmg.	11.4	13.3
+HAG/20 +	Ballistic	Gauss	Gauss	135.0	10.0	10.0	+ 10% Crit. + 2 Acc.	13.5	13.5
+LRM15 (C) + +	Missile	LRM	LRM15	75.0	3.5	11.0	+ 1 Dmg., + 1 Stb.Dmg. - 3 Heat	21.4	6.8
+LRM10 (C) +	Missile	LRM	LRM10	50.0	2.5	8.0	+ 1 Dmg. - 2 Heat	20.0	6.2
+LRM5 (C) +	Missile	LRM	LRM5	25.0	1.0	5.0	+ 1 Dmg. - 1 Heat	25.0	5.0
+MG (C) +	AntiPersonnel	MachineGun	MachineGun	25.0	0.0	0.0	+ 2 Dmg. - 0.25 Ton	inf	No Heat
+LB 20-X (C) + +	Ballistic	Autocannon	LB20X	180.0	12.0	20.0	+ 10 Dmg. + 4 Stb.Dmg.	15.0	9.0
+SRM2 (C) + + +	Missile	SRM	SRM2	20.0	0.5	3.0	+ 2 Dmg., + 1 Stb.Dmg. - 1 Heat	40.0	6.7
+RAC/2 + +	Ballistic	Autocannon	AC5	150.0	7.0	16.0	- 8 Heat - 1 Ton	21.4	9.4
+MRM20 + +	Missile	LRM	LRM10	80.0	5.5	9.0	+ 1 Stb.Dmg. - 3 Heat, - 1.5 Tons	14.5	8.9
+Light PPC +	Energy	PPC	PPC	35.0	3.0	15.0	+ 10 Dmg. 1 Evasion Ignore	11.7	2.3
+ER L Pulse (C) +	Energy	Laser	LargeLaserPulse	70.0	6.0	35.0	+ 10 Dmg. 	11.7	2.0
+LMG (C) + +	AntiPersonnel	MachineGun	MachineGun	30.0	0.0	0.0	+ 4 Dmg. - 0.25 Ton	inf	No Heat
+MML-5 + +	Missile	LRM	LRM10	50.0	3.0	9.0	+ 4 Dmg. + 3 Stb.Dmg.	16.7	5.6
+Imp Heavy M Laser (C) +	Energy	Laser	MediumLaserER	50.0	1.0	25.0	-5 Heat 	50.0	2.0
+iATM 6 +	Missile	LRM	LRM10	84.0	3.5	15.0	+ 2 Stb.Dmg. 	24.0	5.6
+MRM30 + + +	Missile	LRM	LRM15	120.0	7.0	11.0	+ 1.5 Stb.Dmg. - 4 Heat, - 3 Tons	17.1	10.9
+iATM 3 + +	Missile	LRM	LRM5	42.0	1.5	10.0	+ 2 Stb.Dmg. + 100m Range	28.0	4.2
+MML-9 + +	Missile	LRM	LRM20	90.0	6.0	15.0	+ 4 Dmg. + 3 Stb.Dmg.	15.0	6.0
+S Pulse (C) + +	AntiPersonnel	Laser	SmallLaserPulse	45.0	1.0	10.0	+ 10 Dmg. - 2 Heat	45.0	4.5
+ATM 3 (C) +	Missile	LRM	LRM5	36.0	1.5	10.0	+ 1 Stb.Dmg. 	24.0	3.6
+SRM2 Streak (C) +	Missile	SRM	SRM2	20.0	1.0	3.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Heat	20.0	6.7
+UAC/10 (C) + +	Ballistic	Autocannon	UAC10	160.0	10.0	18.0	+ 20 Dmg. + 10 Stb.Dmg.	16.0	8.9
+ATM 12 (C) + +	Missile	LRM	LRM20	144.0	7.0	25.0	+ 1 Stb.Dmg. + 2 Acc.	20.6	5.8
+ER PPC (C) +	Energy	PPC	PPCER	80.0	6.0	40.0	- 5 Heat 	13.3	2.0
+iATM 12 +	Missile	LRM	LRM20	168.0	7.0	25.0	+ 2 Stb.Dmg. 	24.0	6.7
+Gauss Rifle (C) +	Ballistic	Gauss	Gauss	95.0	11.0	5.0	+ 20 Dmg. - 1 Ton	8.6	19.0
+ER M Laser (C) + +	Energy	Laser	MediumLaserER	45.0	1.0	15.0	+ 5 Dmg. - 5 Heat	45.0	3.0
+ER Large Laser (C) + +	Energy	Laser	LargeLaserER	60.0	4.0	20.0	+ 5 Dmg. - 5 Heat	15.0	3.0
+Thunderbolt 15 + +	Missile	LRM	LRM5	120.0	11.0	21.0	+ 30 Dmg. - 2 Tons	10.9	5.7
+ER M Pulse (C) + +	Energy	Laser	MediumLaserPulse	55.0	2.0	18.0	+ 10 Dmg. - 4 Heat	27.5	3.1
+Heavy Gauss Rifle + +	Ballistic	Gauss	Gauss	180.0	15.0	10.0	+ 40 Dmg., + 20 Stb.Dmg. - 3 Tons, - 3 Slots	12.0	18.0
+HAG/40 + +	Ballistic	Gauss	Gauss	195.0	16.0	15.0	+ 20% Crit. + 4 Acc.	12.2	13.0
+Thunderbolt 10 +	Missile	LRM	LRM5	75.0	7.5	15.0	+ 10 Dmg. - 0.5 Tons	10.0	5.0
+UAC/20 (C) +	Ballistic	Autocannon	UAC20	240.0	12.0	40.0	+ 20 Dmg. - 2 Recoil	20.0	6.0
+RAC/5 +	Ballistic	Autocannon	AC5	270.0	10.0	44.0	+ 2.5 Stb.Dmg. - 4 Heat	27.0	6.1
+VSS Pulse + +	AntiPersonnel	Laser	SmallLaserPulse	105.0	2.0	22.0	+ 10 Dmg. - 3 Heat	52.5	4.8
+MRM30 + +	Missile	LRM	LRM15	120.0	8.0	11.0	+ 1 Stb.Dmg. - 4 Heat, - 2 Tons	15.0	10.9
+ATM 6 (C) +	Missile	LRM	LRM10	72.0	3.5	15.0	+ 1 Stb.Dmg. 	20.6	4.8
+VSL Pulse + +	Energy	Laser	LargeLaserPulse	165.0	9.0	35.0	+ 10 Dmg. - 5 Heat	18.3	4.7
+Imp Heavy L Laser (C) + +	Energy	Laser	LargeLaserER	75.0	4.0	30.0	- 5 Heat - 1 Slot	18.8	2.5
+MML-7 + +	Missile	LRM	LRM15	70.0	4.5	12.0	+ 4 Dmg. + 3 Stb.Dmg.	15.6	5.8
+SRM2 (C) + +	Missile	SRM	SRM2	20.0	0.5	3.0	+ 2 Dmg. - 1 Heat	40.0	6.7
+MRM20 + + +	Missile	LRM	LRM10	80.0	5.0	9.0	+ 1.5 Stb.Dmg. - 3 Heat, - 2 Tons	16.0	8.9
+VSS Pulse +	AntiPersonnel	Laser	SmallLaserPulse	90.0	2.0	22.0	+ 5 Dmg. - 3 Heat	45.0	4.1
+RAC/5 + +	Ballistic	Autocannon	AC5	270.0	10.0	40.0	+ 5 Stb.Dmg. - 8 Heat	27.0	6.8
+ATM 6 (C) + +	Missile	LRM	LRM10	72.0	3.5	15.0	+ 1 Stb.Dmg. + 2 Acc.	20.6	4.8
+VSL Pulse +	Energy	Laser	LargeLaserPulse	150.0	9.0	35.0	+ 5 Dmg. - 5 Heat	16.7	4.3
+Imp Heavy L Laser (C) +	Energy	Laser	LargeLaserER	75.0	4.0	35.0	- 1 Slot 	18.8	2.1
+Light PPC + + +	Energy	PPC	PPC	50.0	3.0	15.0	+ 25 Dmg. 1 Evasion Ignore	16.7	3.3
+MML-7 +	Missile	LRM	LRM15	56.0	4.5	12.0	+ 2 Dmg. + 1.5 Stb.Dmg.	12.4	4.7
+SRM2 (C) +	Missile	SRM	SRM2	20.0	0.5	4.0	+ 2 Dmg. 	40.0	5.0
+Thunderbolt 15 +	Missile	LRM	LRM5	105.0	12.0	21.0	+ 15 Dmg. - 1 Ton	8.8	5.0
+ER M Pulse (C) +	Energy	Laser	MediumLaserPulse	50.0	2.0	20.0	+ 5 Dmg. - 2 Heat	25.0	2.5
+HAG/40 +	Ballistic	Gauss	Gauss	195.0	16.0	15.0	+ 10% Crit. + 2 Acc.	12.2	13.0
+Thunderbolt 10 + +	Missile	LRM	LRM5	85.0	7.0	15.0	+ 20 Dmg. - 1 Ton	12.1	5.7
+ER PPC (C) + + +	Energy	PPC	PPCER	100.0	6.0	35.0	+ 20 Dmg. - 10 Heat	16.7	2.9
+UAC/20 (C) + +	Ballistic	Autocannon	UAC20	280.0	12.0	40.0	+ 40 Dmg. - 4 Recoil	23.3	7.0
+Gauss Rifle + + +	Ballistic	Gauss	Gauss	95.0	11.0	5.0	+ 20 Dmg., + 10 Stb.Dmg. - 4 Tons, - 1 Slot	8.6	19.0
+SRM2 Streak (C) + +	Missile	SRM	SRM2	20.0	0.5	3.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Heat, - 0.5 Tons	40.0	6.7
+UAC/10 (C) +	Ballistic	Autocannon	UAC10	140.0	10.0	18.0	+ 10 Dmg. + 10 Stb.Dmg.	14.0	7.8
+ATM 12 (C) +	Missile	LRM	LRM20	144.0	7.0	25.0	+ 1 Stb.Dmg. 	20.6	5.8
+ER PPC (C) + +	Energy	PPC	PPCER	90.0	6.0	35.0	+ 10 Dmg. - 10 Heat	15.0	2.6
+iATM 12 + +	Missile	LRM	LRM20	168.0	7.0	25.0	+ 2 Stb.Dmg. + 100m Range	24.0	6.7
+ER M Laser (C) +	Energy	Laser	MediumLaserER	40.0	1.0	15.0	- 5 Heat 	40.0	2.7
+Gauss Rifle (C) + +	Ballistic	Gauss	Gauss	115.0	10.0	5.0	+ 40 Dmg. - 2 Tons	11.5	23.0
+ER Large Laser (C) +	Energy	Laser	LargeLaserER	55.0	4.0	20.0	- 5 Heat 	13.8	2.8
+RAC/2 +	Ballistic	Autocannon	AC5	150.0	7.5	20.0	- 4 Heat - 0.5 Tons	20.0	7.5
+Light PPC + +	Energy	PPC	PPC	45.0	3.0	15.0	+ 20 Dmg. 1 Evasion Ignore	15.0	3.0
+ER L Pulse (C) + +	Energy	Laser	LargeLaserPulse	80.0	6.0	30.0	+ 20 Dmg. - 5 Heat	13.3	2.7
+LMG (C) +	AntiPersonnel	MachineGun	MachineGun	20.0	0.0	0.0	+ 2 Dmg. - 0.25 Ton	inf	No Heat
+MML-5 +	Missile	LRM	LRM10	40.0	3.0	9.0	+ 2 Dmg. + 1.5 Stb.Dmg.	13.3	4.4
+iATM 6 + +	Missile	LRM	LRM10	84.0	3.5	15.0	+ 2 Stb.Dmg. + 100m Range	24.0	5.6
+Imp Heavy M Laser (C) + +	Energy	Laser	MediumLaserER	50.0	1.0	20.0	- 10 Heat 	50.0	2.5
+iATM 3 +	Missile	LRM	LRM5	42.0	1.5	10.0	+ 2 Stb.Dmg. 	28.0	4.2
+S Pulse (C) +	AntiPersonnel	Laser	SmallLaserPulse	40.0	1.0	12.0	+ 5 Dmg. 	40.0	3.3
+MML-9 + 	Missile	LRM	LRM20	72.0	6.0	15.0	+ 2 Dmg. + 1.5 Stb.Dmg.	12.0	4.8
+PPC + + +	Energy	PPC	PPC	70.0	7.0	30.0	+ 20 Dmg. - 5 Heat	10.0	2.3
+ATM 3 (C) + +	Missile	LRM	LRM5	36.0	1.5	10.0	+ 1 Stb.Dmg. + 2 Acc.	24.0	3.6
+Thunderbolt 20 + +	Missile	LRM	LRM5	165.0	15.0	24.0	+ 40 Dmg. - 2 Tons	11.0	6.9
+Heavy PPC + + +	Energy	PPC	PPC	140.0	10.0	45.0	+ 60 Dmg. + 40 Stb.Dmg.	14.0	3.1
+VSM Pulse + +	Energy	Laser	MediumLaserPulse	135.0	4.0	30.0	+ 10 Dmg. - 5 Heat	33.8	4.5
+L Pulse (C) + +	Energy	Laser	LargeLaserPulse	80.0	6.0	25.0	+ 20 Dmg. - 5 Heat	13.3	3.2
+SRM4 Streak + +	Missile	SRM	SRM4	48.0	2.0	8.0	+4 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Ton	24.0	6.0
+LB 5-X (C) + +	Ballistic	Autocannon	LB5X	100.0	7.0	6.0	+ 4 Dmg. + 4 Stb.Dmg.	14.3	16.7
+HAG/20 + +	Ballistic	Gauss	Gauss	135.0	10.0	10.0	+ 20% Crit. + 4 Acc.	13.5	13.5
+LRM15 (C) +	Missile	LRM	LRM15	75.0	3.5	11.0	+ 1 Dmg. - 3 Heat	21.4	6.8
+LRM10 (C) + +	Missile	LRM	LRM10	50.0	2.5	8.0	+ 1 Dmg., + 1 Stb.Dmg. - 2 Heat	20.0	6.2
+LRM5 (C) + +	Missile	LRM	LRM5	25.0	1.0	5.0	+ 1 Dmg., + 1 Stb.Dmg. - 1 Heat	25.0	5.0
+LB 20-X (C) +	Ballistic	Autocannon	LB20X	150.0	12.0	20.0	+ 5 Dmg. + 4 Stb.Dmg.	12.5	7.5
+MG (C) + +	AntiPersonnel	MachineGun	MachineGun	35.0	0.0	0.0	+ 4 Dmg. - 0.25 Ton	inf	No Heat
+MRM40 + + +	Missile	LRM	LRM20	160.0	9.0	14.0	+ 1.5 Stb.Dmg. - 4 Heat, - 3 Tons	17.8	11.4
+ATM 9 (C) + +	Missile	LRM	LRM15	108.0	5.0	20.0	+ 1 Stb.Dmg. + 2 Acc.	21.6	5.4
+SRM6 (C) + + +	Missile	SRM	SRM6	60.0	1.5	9.0	+ 2 Dmg., + 1 Stb.Dmg. - 3 Heat	40.0	6.7
+Binary Laser + +	Energy	Laser	LargeLaser	120.0	8.0	33.0	+ 10 Dmg., - 3 Heat - 1 Ton	15.0	3.6
+SRM4 Streak (C) + +	Missile	SRM	SRM4	40.0	1.5	6.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 2 Heat, - 0.5 Tons	26.7	6.7
+SRM4 (C) +	Missile	SRM	SRM4	40.0	1.0	8.0	+ 2 Dmg. 	40.0	5.0
+M X-Pulse + +	Energy	Laser	MediumLaserPulse	55.0	2.0	22.0	+ 15 Dmg. - 3 Heat	27.5	2.5
+ER S Laser (C) + +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	10.0	+ 5 Dmg. + 25% Crit.	80.0	4.0
+M Pulse (C) +	Energy	Laser	MediumLaserPulse	50.0	2.0	18.0	+ 5 Dmg. - 2 Heat	25.0	2.8
+UAC/5 (C) +	Ballistic	Autocannon	UAC5	100.0	7.0	16.0	+ 5 Damage - 2 Recoil	14.3	6.2
+iATM 9 +	Missile	LRM	LRM15	126.0	5.0	20.0	+ 2 Stb.Dmg. 	25.2	6.3
+UAC/2 (C) + +	Ballistic	Autocannon	UAC2	70.0	4.0	8.0	+ 10 Dmg. - 1 Ton	17.5	8.8
+MML-3 +	Missile	LRM	LRM5	24.0	1.5	6.0	+ 2 Dmg. + 1.5 Stb.Dmg.	16.0	4.0
+SRM2 Streak +	Missile	SRM	SRM2	20.0	1.5	4.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. 	13.3	5.0
+ER PPC + + +	Energy	PPC	PPCER	80.0	6.0	40.0	+ 20 Dmg. - 1 Ton, - 5 Heat	13.3	2.0
+LB 10-X (C) + +	Ballistic	Autocannon	LB10X	128.0	10.0	10.0	+ 6 Dmg. + 4 Stb.Dmg.	12.8	12.8
+SRM6 (C) + +	Missile	SRM	SRM6	60.0	1.5	9.0	+ 2 Dmg. - 3 Heat	40.0	6.7
+Binary Laser + + +	Energy	Laser	LargeLaser	130.0	7.0	33.0	+ 15 Dmg., - 3 Heat - 2 Tons, - 1 Slot	18.6	3.9
+MRM40 + +	Missile	LRM	LRM20	160.0	10.0	14.0	+ 1 Stb.Dmg. - 4 Heat, - 2 Tons	16.0	11.4
+SRM6 Streak +	Missile	SRM	SRM6	60.0	4.5	12.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. 	13.3	5.0
+LRM20 (C) +	Missile	LRM	LRM20	100.0	5.0	14.0	+ 1 Dmg. - 4 Heat	20.0	7.1
+Imp Heavy S Laser (C) + +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	12.0	- 2 Heat + 60m Range	80.0	3.3
+Thunderbolt 5 +	Missile	LRM	LRM5	55.0	4.0	9.0	+ 5 Dmg. 	13.8	6.1
+SRM6 Streak (C) +	Missile	SRM	SRM6	60.0	2.5	9.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 3 Heat	24.0	6.7
+HMG (C) +	AntiPersonnel	MachineGun	MachineGun	35.0	0.5	0.0	+ 3 Dmg. 	70.0	No Heat
+LB 2-X (C) + +	Ballistic	Autocannon	LB2X	72.0	4.0	2.0	+ 2 Dmg. - 1 Ton	18.0	36.0
+HAG/30 + +	Ballistic	Gauss	Gauss	165.0	13.0	15.0	+ 20% Crit. + 4 Acc.	12.7	11.0
+Silver Bullet Gauss Rifle +	Ballistic	Gauss	Gauss	180.0	14.0	12.0	+ 10 Dmg. - 1 Ton	12.9	15.0
+Heavy PPC + +	Energy	PPC	PPC	120.0	10.0	45.0	+ 40 Dmg. + 20 Stb.Dmg.	12.0	2.7
+L X-Pulse +	Energy	Laser	LargeLaserPulse	70.0	7.0	40.0	+10 Dmg. 	10.0	1.8
+SRM6 Streak (C) + +	Missile	SRM	SRM6	60.0	2.0	9.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 3 Heat, - 1 Ton	30.0	6.7
+Imp Heavy S Laser (C) +	AntiPersonnel	Laser	SmallLaserER	40.0	0.5	12.0	- 3 Heat 	80.0	3.3
+Thunderbolt 5 + +	Missile	LRM	LRM5	60.0	4.0	9.0	+ 10 Dmg. 	15.0	6.7
+HAG/30 +	Ballistic	Gauss	Gauss	165.0	13.0	15.0	+ 10% Crit. + 2 Acc.	12.7	11.0
+LB 2-X (C) +	Ballistic	Autocannon	LB2X	72.0	4.5	2.0	+ 2 Dmg. - 0.5 Tons	16.0	36.0
+HMG (C) + +	AntiPersonnel	MachineGun	MachineGun	50.0	0.5	0.0	+ 6 Dmg. + 60m Range	100.0	No Heat
+Silver Bullet Gauss Rifle + +	Ballistic	Gauss	Gauss	200.0	14.0	12.0	+ 20 Dmg. - 1 Ton, - 1 Slot	14.3	16.7
+Heavy PPC +	Energy	PPC	PPC	100.0	10.0	45.0	+ 20 Dmg. + 10 Stb.Dmg.	10.0	2.2
+L X-Pulse + +	Energy	Laser	LargeLaserPulse	80.0	7.0	40.0	+20 Dmg. 	11.4	2.0
+iATM 9 + +	Missile	LRM	LRM15	126.0	5.0	20.0	+ 2 Stb.Dmg. + 100m Range	25.2	6.3
+UAC/5 (C) + +	Ballistic	Autocannon	UAC5	110.0	7.0	16.0	+ 10 Damage - 2 Recoil	15.7	6.9
+UAC/2 (C) +	Ballistic	Autocannon	UAC2	70.0	4.5	8.0	+ 10 Dmg. - 0.5 Tons	15.6	8.8
+MML-3 + +	Missile	LRM	LRM5	30.0	1.5	6.0	+ 4 Dmg. + 3 Stb.Dmg.	20.0	5.0
+SRM2 Streak + +	Missile	SRM	SRM2	24.0	1.0	4.0	+4 Dmg., Ignores 2 Evasion, + 2 Acc. - 0.5 Tons	24.0	6.0
+MRM10 + +	Missile	LRM	LRM5	40.0	2.0	5.0	+ 1 Stb.Dmg. - 1 Heat, - 1 Ton	20.0	8.0
+SRM4 (C) + + +	Missile	SRM	SRM4	40.0	1.0	6.0	+ 2 Dmg., + 1 Stb.Dmg. - 2 Heat	40.0	6.7
+LB 10-X (C) +	Ballistic	Autocannon	LB10X	112.0	10.0	10.0	+ 4 Dmg. + 2 Stb.Dmg.	11.2	11.2
+SRM6 (C) +	Missile	SRM	SRM6	60.0	1.5	12.0	+ 2 Dmg. 	40.0	5.0
+SRM6 Streak + +	Missile	SRM	SRM6	72.0	3.5	12.0	+ 4 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Ton	20.6	6.0
+LRM20 (C) + +	Missile	LRM	LRM20	100.0	5.0	14.0	+ 1 Dmg., + 1 Stb.Dmg. - 4 Heat	20.0	7.1
+ATM 9 (C) +	Missile	LRM	LRM15	108.0	5.0	20.0	+ 1 Stb.Dmg. 	21.6	5.4
+SRM4 (C) + +	Missile	SRM	SRM4	40.0	1.0	6.0	+ 2 Dmg. - 2 Heat	40.0	6.7
+SRM4 Streak (C) +	Missile	SRM	SRM4	40.0	2.0	6.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 2 Heat	20.0	6.7
+MRM10 + + +	Missile	LRM	LRM5	40.0	2.0	5.0	+ 1.5 Stb.Dmg. - 1 Heat, - 1 Ton	20.0	8.0
+M X-Pulse +	Energy	Laser	MediumLaserPulse	45.0	2.0	22.0	+ 5 Dmg. - 3 Heat	22.5	2.0
+ER S Laser (C) +	AntiPersonnel	Laser	SmallLaserER	35.0	0.5	10.0	+ 5 Dmg. 	70.0	3.5
+M Pulse (C) + +	Energy	Laser	MediumLaserPulse	55.0	2.0	16.0	+ 10 Dmg. - 4 Heat	27.5	3.4
+Thunderbolt 20 +	Missile	LRM	LRM5	145.0	16.0	24.0	+ 20 Dmg. - 1 Ton	9.1	6.0
+VSM Pulse +	Energy	Laser	MediumLaserPulse	120.0	4.0	30.0	+ 5 Dmg. - 5 Heat	30.0	4.0
+SRM4 Streak +	Missile	SRM	SRM4	40.0	3.0	8.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. 	13.3	5.0
+L Pulse (C) +	Energy	Laser	LargeLaserPulse	70.0	6.0	25.0	+ 10 Dmg. - 5 Heat	11.7	2.8
+LB 5-X (C) +	Ballistic	Autocannon	LB5X	80.0	7.0	6.0	+ 2 Dmg. + 4 Stb.Dmg.	11.4	13.3
+HAG/20 +	Ballistic	Gauss	Gauss	135.0	10.0	10.0	+ 10% Crit. + 2 Acc.	13.5	13.5
+LRM15 (C) + +	Missile	LRM	LRM15	75.0	3.5	11.0	+ 1 Dmg., + 1 Stb.Dmg. - 3 Heat	21.4	6.8
+LRM10 (C) +	Missile	LRM	LRM10	50.0	2.5	8.0	+ 1 Dmg. - 2 Heat	20.0	6.2
+LRM5 (C) +	Missile	LRM	LRM5	25.0	1.0	5.0	+ 1 Dmg. - 1 Heat	25.0	5.0
+MG (C) +	AntiPersonnel	MachineGun	MachineGun	25.0	0.0	0.0	+ 2 Dmg. - 0.25 Ton	inf	No Heat
+LB 20-X (C) + +	Ballistic	Autocannon	LB20X	180.0	12.0	20.0	+ 10 Dmg. + 4 Stb.Dmg.	15.0	9.0
+SRM2 (C) + + +	Missile	SRM	SRM2	20.0	0.5	3.0	+ 2 Dmg., + 1 Stb.Dmg. - 1 Heat	40.0	6.7
+RAC/2 + +	Ballistic	Autocannon	AC5	150.0	7.0	16.0	- 8 Heat - 1 Ton	21.4	9.4
+MRM20 + +	Missile	LRM	LRM10	80.0	5.5	9.0	+ 1 Stb.Dmg. - 3 Heat, - 1.5 Tons	14.5	8.9
+Light PPC +	Energy	PPC	PPC	35.0	3.0	15.0	+ 10 Dmg. 1 Evasion Ignore	11.7	2.3
+ER L Pulse (C) +	Energy	Laser	LargeLaserPulse	70.0	6.0	35.0	+ 10 Dmg. 	11.7	2.0
+LMG (C) + +	AntiPersonnel	MachineGun	MachineGun	30.0	0.0	0.0	+ 4 Dmg. - 0.25 Ton	inf	No Heat
+MML-5 + +	Missile	LRM	LRM10	50.0	3.0	9.0	+ 4 Dmg. + 3 Stb.Dmg.	16.7	5.6
+Imp Heavy M Laser (C) +	Energy	Laser	MediumLaserER	50.0	1.0	25.0	-5 Heat 	50.0	2.0
+iATM 6 +	Missile	LRM	LRM10	84.0	3.5	15.0	+ 2 Stb.Dmg. 	24.0	5.6
+MRM30 + + +	Missile	LRM	LRM15	120.0	7.0	11.0	+ 1.5 Stb.Dmg. - 4 Heat, - 3 Tons	17.1	10.9
+iATM 3 + +	Missile	LRM	LRM5	42.0	1.5	10.0	+ 2 Stb.Dmg. + 100m Range	28.0	4.2
+MML-9 + +	Missile	LRM	LRM20	90.0	6.0	15.0	+ 4 Dmg. + 3 Stb.Dmg.	15.0	6.0
+S Pulse (C) + +	AntiPersonnel	Laser	SmallLaserPulse	45.0	1.0	10.0	+ 10 Dmg. - 2 Heat	45.0	4.5
+ATM 3 (C) +	Missile	LRM	LRM5	36.0	1.5	10.0	+ 1 Stb.Dmg. 	24.0	3.6
+SRM2 Streak (C) +	Missile	SRM	SRM2	20.0	1.0	3.0	+ 2 Dmg., Ignores 2 Evasion, + 2 Acc. - 1 Heat	20.0	6.7
+UAC/10 (C) + +	Ballistic	Autocannon	UAC10	160.0	10.0	18.0	+ 20 Dmg. + 10 Stb.Dmg.	16.0	8.9
+ATM 12 (C) + +	Missile	LRM	LRM20	144.0	7.0	25.0	+ 1 Stb.Dmg. + 2 Acc.	20.6	5.8
+ER PPC (C) +	Energy	PPC	PPCER	80.0	6.0	40.0	- 5 Heat 	13.3	2.0
+iATM 12 +	Missile	LRM	LRM20	168.0	7.0	25.0	+ 2 Stb.Dmg. 	24.0	6.7
+Gauss Rifle (C) +	Ballistic	Gauss	Gauss	95.0	11.0	5.0	+ 20 Dmg. - 1 Ton	8.6	19.0
+ER M Laser (C) + +	Energy	Laser	MediumLaserER	45.0	1.0	15.0	+ 5 Dmg. - 5 Heat	45.0	3.0
+ER Large Laser (C) + +	Energy	Laser	LargeLaserER	60.0	4.0	20.0	+ 5 Dmg. - 5 Heat	15.0	3.0
+Thunderbolt 15 + +	Missile	LRM	LRM5	120.0	11.0	21.0	+ 30 Dmg. - 2 Tons	10.9	5.7
+ER M Pulse (C) + +	Energy	Laser	MediumLaserPulse	55.0	2.0	18.0	+ 10 Dmg. - 4 Heat	27.5	3.1
+Heavy Gauss Rifle + +	Ballistic	Gauss	Gauss	180.0	15.0	10.0	+ 40 Dmg., + 20 Stb.Dmg. - 3 Tons, - 3 Slots	12.0	18.0
+HAG/40 + +	Ballistic	Gauss	Gauss	195.0	16.0	15.0	+ 20% Crit. + 4 Acc.	12.2	13.0
+Thunderbolt 10 +	Missile	LRM	LRM5	75.0	7.5	15.0	+ 10 Dmg. - 0.5 Tons	10.0	5.0
+UAC/20 (C) +	Ballistic	Autocannon	UAC20	240.0	12.0	40.0	+ 20 Dmg. - 2 Recoil	20.0	6.0
+RAC/5 +	Ballistic	Autocannon	AC5	270.0	10.0	44.0	+ 2.5 Stb.Dmg. - 4 Heat	27.0	6.1
+VSS Pulse + +	AntiPersonnel	Laser	SmallLaserPulse	105.0	2.0	22.0	+ 10 Dmg. - 3 Heat	52.5	4.8
+MRM30 + +	Missile	LRM	LRM15	120.0	8.0	11.0	+ 1 Stb.Dmg. - 4 Heat, - 2 Tons	15.0	10.9
+ATM 6 (C) +	Missile	LRM	LRM10	72.0	3.5	15.0	+ 1 Stb.Dmg. 	20.6	4.8
+VSL Pulse + +	Energy	Laser	LargeLaserPulse	165.0	9.0	35.0	+ 10 Dmg. - 5 Heat	18.3	4.7
+Imp Heavy L Laser (C) + +	Energy	Laser	LargeLaserER	75.0	4.0	30.0	- 5 Heat - 1 Slot	18.8	2.5
+MML-7 + +	Missile	LRM	LRM15	70.0	4.5	12.0	+ 4 Dmg. + 3 Stb.Dmg.	15.6	5.8
+SRM2 (C) + +	Missile	SRM	SRM2	20.0	0.5	3.0	+ 2 Dmg. - 1 Heat	40.0	6.7
+MRM20 + + +	Missile	LRM	LRM10	80.0	5.0	9.0	+ 1.5 Stb.Dmg. - 3 Heat, - 2 Tons	16.0	8.9
