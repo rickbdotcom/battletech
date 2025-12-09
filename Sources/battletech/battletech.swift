@@ -24,6 +24,7 @@ struct BattleTech: ParsableCommand {
             "Category",
             "Type",
             "Sub Type",
+            "Range",
             "Damage",
             "Tonnage",
             "Heat",
@@ -41,6 +42,7 @@ struct BattleTech: ParsableCommand {
                     weapon.Category,
                     weapon.WeaponType,
                     weapon.WeaponSubType,
+                    String(weapon.MaxRange),
                     weapon.displayDamage,
                     weapon.displayTonnage,
                     weapon.displayHeatGenerated,
@@ -67,6 +69,7 @@ struct Weapon: Decodable {
     let BonusValueB: String
     let Description: DescriptionInfo
     let ShotsWhenFired: Float
+    let MaxRange: Int
 
     var bonus: String {
         [BonusValueA, BonusValueB].joined(separator: " ")
@@ -82,6 +85,7 @@ struct Weapon: Decodable {
         case BonusValueB
         case Description
         case ShotsWhenFired
+        case MaxRange
     }
 
     struct DescriptionInfo: Decodable {
