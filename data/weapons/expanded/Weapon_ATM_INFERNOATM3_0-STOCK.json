@@ -1,0 +1,150 @@
+{
+    "Category": "Missile",
+    "Type": "LRM",
+    "WeaponSubType": "LRM5",
+    "MinRange": 120,
+    "MaxRange": 520,
+    "RangeSplit": [
+        230,
+        300,
+        450
+    ],
+    "ammoCategoryID" : "Flamer",
+    "StartingAmmoCapacity": 30,
+    "HeatGenerated": 15,
+    "Damage": 10,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 0,
+    "HeatDamage": 5,
+    "AccuracyModifier": -4,
+    "CriticalChanceMultiplier": 2,
+    "AOECapable": false,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 2,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+    "Description": {
+        "Cost": 250000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "The Society",
+        "Model": "iATM 3",
+        "UIName": "Inferno iATM 3",
+        "Id": "Weapon_ATM_INFERNOATM3_0-STOCK",
+        "Name": "Inferno iATM 3",
+        "Details": "The Improved Advanced Tactical Missile 3 or iATM 3 is the smallest of the improved missile launchers developed by The Society. This weapon uses internal ammo rack, loaded with Improved Inferno Ammunition (IIW).",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lrm10",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Inferno-Burn5",
+                "Name" : "BURNING GEL",
+                "Details" : "This unit gains [AMT] Heat on its next activation (this effect stacks).",
+                "Icon" : "uixSvgIcon_statusOnFire"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "5",
+                "modType": "System.Int32"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+		{
+			"durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+			"targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+			"effectType" : "VFXEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Inferno-VFX",
+                "Name" : "Inferno VFX",
+                "Details" : "Visual indicator of the Inferno effect",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+			"vfxData" : {
+				"vfxName" : "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+				"attachToImpactPoint" : true,
+				"location" : -1,
+				"isAttached" : true,
+				"facesAttacker" : false,
+				"isOneShot" : false,
+				"duration" : -1.0		
+			}
+		}
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
+
+

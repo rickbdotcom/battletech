@@ -1,0 +1,73 @@
+{
+    "Custom": {
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 40
+        }
+    },
+    "Category": "AntiPersonnel",
+    "Type": "Laser",
+    "WeaponSubType": "SmallLaserER",
+    "MinRange": 0,
+    "MaxRange": 150,
+    "RangeSplit": [
+        30,
+        60,
+        120
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 12,
+    "Damage": 40,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1.5,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
+    "Description": {
+        "Cost": 693000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Heavy Small Laser",
+        "UIName": "Imp Heavy S Laser (C) + +",
+        "Id": "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED_2",
+        "Name": "Imp Heavy S Laser (C) + +",
+        "Details": "The Improved Heavy Small Laser is Clan Goliath Scorpion's smallest Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Small Laser. Unlike the Star Adder's weapon, it doesn't interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "- 2 Heat",
+    "BonusValueB": "+ 60m Range",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_close",
+            "component_type_variant",
+            "component_type_variant2",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

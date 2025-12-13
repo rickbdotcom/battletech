@@ -1,0 +1,62 @@
+{
+    "Category": "Missile",
+    "Type": "LRM",
+    "WeaponSubType": "LRM20",
+    "MinRange": 90,
+    "MaxRange": 800,
+    "RangeSplit": [
+        230,
+        490,
+        730
+    ],
+    "ammoCategoryID" : "LRM",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 25,
+    "Damage": 12,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1.5,
+    "AOECapable": false,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 12,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 2,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+    "Description": {
+        "Cost": 454000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Clan Tech",
+        "Model": "Advanced Tactical Missile",
+        "UIName": "ATM 12",
+        "Id": "Weapon_LRM_ATM12",
+        "Name": "ATM 12",
+        "Details": "The Advanced Tactical Missile system (ATM) was developed by Clan Coyote and allows its users to choose between three different types of ammunition. ATMs also include an integral Artemis IV Fire Control System. Uses LRM Ammo bins.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lrm20",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 7,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

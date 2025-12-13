@@ -1,0 +1,62 @@
+{
+    "Category": "Missile",
+    "Type": "LRM",
+    "WeaponSubType": "LRM5",
+    "MinRange": 120,
+    "MaxRange": 520,
+    "RangeSplit": [
+        230,
+        300,
+        450
+    ],
+    "ammoCategoryID" : "LRM",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 14,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -4,
+    "CriticalChanceMultiplier": 2,
+    "AOECapable": false,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 3,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+    "Description": {
+        "Cost": 225000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "The Society",
+        "Model": "Improved Advanced Tactical Missile",
+        "UIName": "iATM 3",
+        "Id": "Weapon_ATM_IATM3_0-STOCK",
+        "Name": "iATM 3",
+        "Details": "The Improved Advanced Tactical Missile 3 or iATM 3 is the smallest of the improved missile launchers developed by The Society. The iATM 6 offered significant improvements over its progenitor. Uses the standard LRM ammo bins.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "srm6",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

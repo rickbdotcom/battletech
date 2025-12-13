@@ -1,0 +1,70 @@
+{
+    "Category": "Missile",
+    "Type": "LRM",
+    "WeaponSubType": "LRM5",
+    "MinRange": 180,
+    "MaxRange": 580,
+    "RangeSplit": [
+        400,
+        400,
+        580
+    ],
+    "ammoCategoryID": "Flamer",
+    "StartingAmmoCapacity": 12,
+    "HeatGenerated": 15,
+    "Damage": 75,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 20,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+    "Description": {
+        "Cost": 306250,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "Solaris",
+        "Model": "Hunter-Killer Missile",
+        "UIName": "Thunderbolt 10 +",
+        "Id": "Weapon_Thunderbolt_10_1",
+        "Name": "Thunderbolt 10 +",
+        "Details": "First developed by the Federated Commonwealth in the mid-3050s for the Solaris arenas, the Thunderbolt launcher is an offshoot of standard LRM technology. Instead of firing a group of ten missiles, the Thunderbolt 10 launcher fires a single missile that inflicts as much damage as an Autocannon/10. This increased damage is made up for by the slightly reduced range and increases to the weapon's heat and weight.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "+ 10 Dmg.",
+    "BonusValueB": "- 0.5 Tons",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "srm6",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 7.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant1",
+            "range_long",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

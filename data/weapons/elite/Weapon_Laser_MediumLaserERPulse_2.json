@@ -1,0 +1,67 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        120,
+        200,
+        260
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 18,
+    "Damage": 55,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
+    "Description": {
+        "Cost": 2000000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Clan Tech",
+        "Model": "Medium Pulse Laser",
+        "UIName": "ER M Pulse (C) + +",
+        "Id": "Weapon_Laser_MediumLaserERPulse_2",
+        "Name": "ER M Pulse (C)",
+        "Details": "The Extended Range Medium Pulse Laser is the middleweight ER Pulse Laser created by the scientists of Clan Wolf. Like all pulse lasers, it offers the warrior using it a better chance of hitting a target. Unfortunately, the longer range of the weapon slightly reduces its accuracy when compared to traditional pulse laser weapons. An ER Medium Pulse Laser inflicts the same amount of damage as a typical Medium Pulse Laser, but at a slightly longer range and with a moderate heat increase.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+ 10 Dmg.",
+    "BonusValueB": "- 4 Heat",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant2",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

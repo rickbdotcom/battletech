@@ -1,0 +1,276 @@
+{
+    "Category": "Missile",
+    "Type": "LRM",
+    "WeaponSubType": "LRM5",
+    "MinRange": 120,
+    "MaxRange": 520,
+    "RangeSplit": [
+        230,
+        300,
+        450
+    ],
+    "ammoCategoryID" : "Flamer",
+    "StartingAmmoCapacity": 30,
+    "HeatGenerated": 15,
+    "Damage": 2,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -4,
+    "CriticalChanceMultiplier": 2,
+    "AOECapable": false,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 2,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+    "Description": {
+        "Cost": 275000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "The Society",
+        "Model": "iATM 3",
+        "UIName": "IMP iATM 3",
+        "Id": "Weapon_ATM_IMPATM3_0-STOCK",
+        "Name": "IMP iATM 3",
+        "Details": "The Improved Advanced Tactical Missile 3 or iATM 3 is the smallest of the improved missile launchers developed by The Society. This weapon uses internal ammo rack, loaded with Improved Magnetic Pulse Ammunition (IMP).",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lrm10",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects" : [
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Flamer-Burn5",
+                "Name" : "EM OVERLOAD",
+                "Details" : "This unit gains [AMT] heat on its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "5",
+                "modType": "System.Int32",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+		 }
+        },
+        {
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 0,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AbilityDefPPC",
+                "Name" : "EM SCRAMBLE",
+                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "3.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+{
+            "Description" : {
+                "Id" : "StatusEffect-BWCL-WidowsKissWalkSpeed",
+                "Name" : "EM INTERFERENCE",
+                "Details" : "Electromagnetic pulse interferes with the affected unit's control responsiveness and speed.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "effectTargetType" : "SingleTarget",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : false
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.4",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "uixSvgIcon_status_sensorsImpaired",
+                "Name" : "EM INTERFERENCE",
+                "Details" : "Electromagnetic pulse interferes with the affected unit's control responsiveness and speed.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "effectTargetType" : "SingleTarget",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : false
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.4",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-AC20-ImpactStability",
+                "Name" : "EM DESTABILIZATION",
+                "Details" : "This unit's aim and stability have been crippled by a powerful attack.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 0,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "effectTargetType" : "SingleTarget",
+                "triggerLimit" : 1,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "statName" : "ReceivedInstabilityMultiplier",
+                "operation" : "Float_Add",
+                "modValue" : "1.5",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
+
+

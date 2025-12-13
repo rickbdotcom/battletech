@@ -1,0 +1,68 @@
+{
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "AC5",
+    "MinRange": 50,
+    "MaxRange": 450,
+    "RangeSplit": [
+        300,
+        300,
+        450
+    ],
+    "AmmoCategory": "AC5",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 40,
+    "Damage": 45,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 2,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 2,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 3,
+    "ShotsWhenFired": 6,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 2,
+    "Instability": 15,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
+    "Description": {
+        "Cost": 1181250,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "Mydron",
+        "Model": "Rotary Autocannon",
+        "UIName": "RAC/5 + +",
+        "Id": "Weapon_RotaryAutocannon_RAC5_2",
+        "Name": "RAC/5 + +",
+        "Details": "Developed in 3062 by the Federated Commonwealth, the Rotary Autocannon/5 is based only loosely on the Autocannon/5. While it has the same bore, it is capable of firing up to six times as many rounds as its standard cousin, allowing it to deal up to three times the damage of even an Ultra AC/5.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+ 5 Stb.Dmg.",
+    "BonusValueB": "- 8 Heat",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "uac5",
+    "InventorySize": 6,
+    "Tonnage": 10,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant2",
+            "range_long",
+            "component_type_stock",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

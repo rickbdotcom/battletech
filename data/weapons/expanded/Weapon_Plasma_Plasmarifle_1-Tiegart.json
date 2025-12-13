@@ -1,0 +1,108 @@
+{
+    "Category" : "Energy",
+    "Type" : "PPC",
+    "WeaponSubType" : "PPC",
+    "MinRange" : 0,
+    "MaxRange" : 450,
+    "RangeSplit" : [
+        300,
+        300,
+        450
+    ],
+    "ammoCategoryID" : "Flamer",
+    "StartingAmmoCapacity" : 10,
+    "HeatGenerated" : 22,
+    "Damage" : 30,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 25,
+    "StructureDamage" : 5,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_COILS",
+    "Description" : {
+        "Cost" : 750000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Tiegart",
+        "Model" : "Incinerator Plasma Rifle",
+        "UIName" : "Plasma Rifle +",
+        "Id" : "Weapon_Plasma_Plasmarifle_1-Tiegart",
+        "Name" : "Plasma Rifle",
+        "Details" : "Plasma weapons use the power of the fusion engine or power amplifiers to power an electromagnetic accelerator that fires a stream, pulse or toroid of plasma (i.e. very hot, energetic, and excited matter). The plasma is created by using a lasing process to flash cartridges of plastic foam into white-hot projectiles that cause thermal as well as physical damage. Because this foam ammo is inert, it cannot explode even if it is destroyed.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "-10 Dmg.",
+    "BonusValueB" : "+10 Heat Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 6,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Flamer-Burn5",
+                "Name" : "SUPERHEATED PLASMA",
+                "Details" : "This unit gains [AMT] heat on its next activation.",
+                "Icon" : "uixSvgIcon_statusOnFire"
+            },
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "5",
+                "modType": "System.Int32",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

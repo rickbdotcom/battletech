@@ -1,0 +1,62 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 270,
+    "RangeSplit": [
+        180,
+        180,
+        270
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 35,
+    "Damage": 35,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 25,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 5,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
+    "Description": {
+        "Cost": 1450000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Sekkaris",
+        "Model": "Medium Variable Speed Pulse Laser",
+        "UIName": "VSM Pulse",
+        "Id": "Weapon_Laser_VSMLaser_0-STOCK",
+        "Name": "VSM Pulse",
+        "Details": "The Medium Variable Speed Pulse Laser is, as its name suggests, the mid-sized version of the Variable Speed Pulse Lasers in use. At twice the weight of a standard Medium Pulse Laser, a Word of Blake MechWarrior can inflict up to half again as much damage with this weapon.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 4,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

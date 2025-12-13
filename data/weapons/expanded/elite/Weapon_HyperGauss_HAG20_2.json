@@ -1,0 +1,70 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 180,
+    "MaxRange": 800,
+    "RangeSplit": [
+        240,
+        420,
+        600
+    ],
+    "ammoCategoryID": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 45,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 20,
+    "AccuracyModifier": -4,
+    "CriticalChanceMultiplier": 1.2,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 4,
+    "Instability": 25,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 9975000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "Clan Tech",
+        "Model": "Automatic Magnetic Cannon",
+        "UIName": "HAG/20 + +",
+        "Id": "Weapon_HyperGauss_HAG20_2",
+        "Name": "Hyper-Assault Gauss Rifle + +",
+        "Details": "The Hyper-Assault Gauss Rifle is a variation on the Gauss Rifle developed by Clan Hell's Horses in 3068. Hoping to stay ahead of the increasing technological curve, they apparently used similar design principles to the Lyran Alliance's Heavy Gauss Rifle. To compensate for its drawbacks, however, Horse scientists used a series of capacitors and launching tubes to fire a multitude of smaller-caliber Gauss slugs. The resulting high rate of fire, akin almost to Rotary Autocannons, made these weapons very effective against battle armor and Combat Vehicles.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+ 20% Crit.",
+    "BonusValueB": "+ 4 Acc.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 10,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "Arms",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme",
+            "component_type_variant",
+            "component_type_variant2",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

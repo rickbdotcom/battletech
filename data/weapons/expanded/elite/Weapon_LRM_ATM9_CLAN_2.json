@@ -1,0 +1,68 @@
+{
+    "Category": "Missile",
+    "Type": "LRM",
+    "WeaponSubType": "LRM15",
+    "MinRange": 90,
+    "MaxRange": 800,
+    "RangeSplit": [
+        230,
+        490,
+        730
+    ],
+    "ammoCategoryID": "LRM",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 20,
+    "Damage": 12,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -4,
+    "CriticalChanceMultiplier": 1.5,
+    "AOECapable": false,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 9,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 3,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM15",
+    "Description": {
+        "Cost": 905625,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Advanced Tactical Missile",
+        "UIName": "ATM 9 (C) + +",
+        "Id": "Weapon_LRM_ATM9_CLAN_2",
+        "Name": "ATM 9 (C) + +",
+        "Details": "The Advanced Tactical Missile system (ATM) was developed by Clan Coyote and allows its users to choose between three different types of ammunition. ATMs also include an integral Artemis IV Fire Control System. Uses LRM Ammo bins.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "+ 1 Stb.Dmg.",
+    "BonusValueB": "+ 2 Acc.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lrm15",
+    "BattleValue": 0,
+    "InventorySize": 3,
+    "Tonnage": 5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant2",
+            "range_extreme",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

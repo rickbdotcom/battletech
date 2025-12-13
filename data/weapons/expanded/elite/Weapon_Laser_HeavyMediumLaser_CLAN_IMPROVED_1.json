@@ -1,0 +1,68 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaserER",
+    "MinRange": 0,
+    "MaxRange": 270,
+    "RangeSplit": [
+        90,
+        180,
+        270
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 25,
+    "Damage": 50,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1.5,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Medium",
+    "Description": {
+        "Cost": 861000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Medium Laser",
+        "UIName": "Imp Heavy M Laser (C) +",
+        "Id": "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED_1",
+        "Name": "Imp Heavy M Laser (C) +",
+        "Details": "The Improved Heavy Medium Laser is Clan Goliath Scorpion's workhorse Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Medium Laser. Unlike the Star Adders' weapon, it does not interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "-5 Heat",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard",
+            "component_type_variant",
+            "component_type_variant1",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

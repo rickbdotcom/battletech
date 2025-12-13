@@ -1,0 +1,62 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        300,
+        300,
+        450
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 40,
+    "Damage": 45,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 25,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 3,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+    "Description": {
+        "Cost": 2250000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Sekkaris",
+        "Model": "Large Variable Speed Pulse Laser",
+        "UIName": "VSL Pulse",
+        "Id": "Weapon_Laser_VSLLaser_0-STOCK",
+        "Name": "VSL Pulse",
+        "Details": "The Large Variable Speed Pulse Laser is the largest of the Variable Speed Pulse Lasers in use. Weighing almost as much as a Heavy PPC, the Large VSP Laser can inflict nearly as much damage on a target, and has a better chance of hitting the target. With these facts in mind, Word of Blake MechWarriors often use them when attacking targets in tight terrain such as cities.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 9,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

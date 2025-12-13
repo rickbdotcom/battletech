@@ -1,0 +1,68 @@
+{
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "LB10X",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        300,
+        300,
+        450
+    ],
+    "ammoCategoryID": "LB10X",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 16,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 2,
+    "ShotsWhenFired": 8,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 3,
+    "Instability": 9,
+    "WeaponEffectID": "WeaponEffect-Weapon_LB10X",
+    "Description": {
+        "Cost": 905625,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Heavy Cluster Cannon",
+        "UIName": "LB 10-X (C) + +",
+        "Id": "Weapon_Autocannon_AC10_LBX_CLAN_2",
+        "Name": "LB 10-X (C) + +",
+        "Details": "Developed by Lubalin Ballistics for the Terran Hegemony, the LB-X Autocannon was a derivative of the standard and relatively primitive Autocannon design. Taking advantage of advanced materials, the company was able to reduce the weight of the weapon for only a slight increase in bulk and mated it with the advanced Mercury-VII targeting system to boost its effective range.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+ 6 Dmg.",
+    "BonusValueB": "+ 4 Stb.Dmg.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lbx10",
+    "InventorySize": 3,
+    "Tonnage": 10,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "VolleyDivisor": 8,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long",
+            "component_type_variant",
+            "component_type_variant2",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

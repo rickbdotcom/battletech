@@ -1,0 +1,64 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC5",
+    "MinRange" : 70,
+    "MaxRange" : 700,
+    "RangeSplit" : [
+        360,
+        500,
+        700
+    ],
+    "ammoCategoryID" : "AC5",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 8,
+    "Damage" : 45,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 10,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
+    "Description" : {
+        "Cost" : 120000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Ceres Metals",
+        "Model" : "Hypervelocity Autocannon",
+        "UIName" : "HVAC/5",
+        "Id" : "Weapon_HyperAutocannon_HVAC5_0-STOCK",
+        "Name" : "HVAC/5",
+        "Details" : "The Hypervelocity Autocannon/5 is based on the Autocannon/5. While it has the same damage class, it is capable of firing much further.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC5",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 12,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_very-long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC2",
+    "MinRange" : 120,
+    "MaxRange" : 850,
+    "RangeSplit" : [
+        480,
+        600,
+        850
+    ],
+    "ammoCategoryID" : "AC2",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 4,
+    "Damage" : 25,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 5,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
+    "Description" : {
+        "Cost" : 60000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "GM",
+        "Model" : "Hypervelocity Autocannon",
+        "UIName" : "HVAC/2",
+        "Id" : "Weapon_HyperAutocannon_HVAC2_0-STOCK",
+        "Name" : "HVAC/2",
+        "Details" : "Hypervelocity Autocannon/2 is based on the Autocannon/2. While it has the same damage class, it is capable of firing much further.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC2",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 8,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

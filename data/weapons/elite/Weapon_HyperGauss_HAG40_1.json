@@ -1,0 +1,69 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 180,
+    "MaxRange": 800,
+    "RangeSplit": [
+        240,
+        420,
+        600
+    ],
+    "ammoCategoryID": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 15,
+    "Damage": 65,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 25,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1.1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 5,
+    "Instability": 35,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 9362500,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Clan Tech",
+        "Model": "Rotary Magnetic Cannon",
+        "UIName": "HAG/40 +",
+        "Id": "Weapon_HyperGauss_HAG40_1",
+        "Name": "Hyper-Assault Gauss Rifle +",
+        "Details": "The Hyper-Assault Gauss Rifle is a variation on the Gauss Rifle developed by Clan Hell's Horses in 3068. Hoping to stay ahead of the increasing technological curve, they apparently used similar design principles to the Lyran Alliance's Heavy Gauss Rifle. To compensate for its drawbacks, however, Horse scientists used a series of capacitors and launching tubes to fire a multitude of smaller-caliber Gauss slugs. The resulting high rate of fire, akin almost to Rotary Autocannons, made these weapons very effective against battle armor and Combat Vehicles. The HAG 40 is the largest and most deadly of the HAG series.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+ 10% Crit.",
+    "BonusValueB": "+ 2 Acc.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 8,
+    "Tonnage": 16,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "Arms",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme",
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

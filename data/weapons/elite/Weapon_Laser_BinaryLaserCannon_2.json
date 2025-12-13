@@ -1,0 +1,67 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaser",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        300,
+        300,
+        450
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 33,
+    "Damage": 60,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 2,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+    "Description": {
+        "Cost": 350000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Defiance",
+        "Model": "Binary Laser Cannon",
+        "UIName": "Binary Laser + +",
+        "Id": "Weapon_Laser_BinaryLaserCannon_2",
+        "Name": "Binary Laser + +",
+        "Details": "The Binary Laser (nicknamed 'Blazer') fuses two Large Laser cores together, allowing them to be fired simultaneously. Originally considered a dead end due to the enormous amounts of heat generated, improvements in heatsinking technology have made Blazers viable again. More advanced variants increase the weapon's damage output while reducing weight and bulk.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+ 10 Dmg., - 3 Heat",
+    "BonusValueB": "- 1 Ton",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 8,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant2",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

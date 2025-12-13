@@ -1,0 +1,66 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 180,
+    "MaxRange": 800,
+    "RangeSplit": [
+        240,
+        420,
+        600
+    ],
+    "ammoCategoryID": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 165,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 5,
+    "Instability": 60,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 275000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Imperator",
+        "Model": "Heavy Magnetic Cannon",
+        "UIName": "Heavy Gauss Rifle",
+        "Id": "Weapon_Gauss_Gauss_HEAVY",
+        "Name": "Heavy Gauss Rifle",
+        "Details": "The Heavy Gauss Rifle is a new, deadly innovation by Lyran Alliance scientists introduced in 3061 in conjunction with a manufacturing cooperation between Defiance Industries and TharHes. Applying their bigger is better philosophy to Gauss technology, the Heavy Gauss Rifle is one of the heaviest battlefield weapons in existence, and has a correspondingly high damage potential. Indeed, the recoil from the weapon is so great that the rifle cannot be mounted in a vehicle's turret or 'Mech's arms, as firing the rifle would essentially rip it off.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 7,
+    "Tonnage": 18,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "Arms",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

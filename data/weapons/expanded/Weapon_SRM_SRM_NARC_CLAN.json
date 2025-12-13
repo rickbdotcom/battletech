@@ -1,0 +1,150 @@
+{
+    "Category": "Missile",
+    "Type": "SRM",
+    "WeaponSubType": "Narc",
+    "MinRange": 0,
+    "MaxRange": 360,
+    "RangeSplit": [
+        120,
+        240,
+        360
+    ],
+    "ammoCategoryID": "Narc",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 0,
+    "Damage": 1,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -4,
+    "CriticalChanceMultiplier": 0,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_Narc",
+    "Description": {
+        "Cost": 465000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Clan",
+        "Model": "Missile Tracking Launcher",
+        "UIName": "NARC Beacon (C)",
+        "Id": "Weapon_SRM_SRM_NARC_CLAN",
+        "Name": "Narc Beacon (C)",
+        "Details": "This Launcher fires a single NARC beacon that attaches itself to the enemy and emits a homing signal for all friendly weapons. This prototype comes with an advanced guidance system. Three turn duration, does not stack.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "+ 25% Dmg. Mark",
+    "BonusValueB": "* Missile",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "srm2",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "VolleyDivisor": 1,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": 2,
+                "ticksOnActivations": true,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 0,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "OnHit",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "NotSet",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-NARC-MissileDmgBonus25",
+                "Name": "NARC ATTACHED",
+                "Details": "This unit will take [AMT] more damage from Missile attacks.",
+                "Icon": "uixSvgIcon_statusMarked"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "statName": "DamageReductionMultiplierMissile",
+                "operation": "Float_Multiply",
+                "modValue": "1.25",
+                "modType": "System.Single"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": 2,
+                "ticksOnActivations": true,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 0,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "OnHit",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "NotSet",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false,
+                "hideApplicationFloatie": true
+            },
+            "effectType": "VFXEffect",
+            "Description": {
+                "Id": "StatusEffect-NARC-IndicatorVFX",
+                "Name": "NARC ATTACHED",
+                "Details": "Visual indicator of the NARC effect",
+                "Icon": "uixSvgIcon_statusMarked"
+            },
+            "nature": "Debuff",
+            "vfxData": {
+                "vfxName": "vfxPrfPrtl_narcMarker_loop",
+                "attachToImpactPoint": true,
+                "location": -1,
+                "isAttached": true,
+                "facesAttacker": false,
+                "isOneShot": false,
+                "duration": -1
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

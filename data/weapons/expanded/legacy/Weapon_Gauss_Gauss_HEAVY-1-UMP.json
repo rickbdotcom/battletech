@@ -1,0 +1,66 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 180,
+    "MaxRange": 800,
+    "RangeSplit": [
+        240,
+        420,
+        600
+    ],
+    "ammoCategoryID": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 6,
+    "Damage": 185,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 5,
+    "Instability": 70,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 275000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "UMP",
+        "Model": "Heavy Magnetic Cannon",
+        "UIName": "Heavy Gauss Rifle +",
+        "Id": "Weapon_Gauss_Gauss_HEAVY-1-UMP",
+        "Name": "Heavy Gauss Rifle +",
+        "Details": "Improved IS Heavy Gauss Rifle built with advanced materials, it weighs less, uses less space, disapates heat easier and does more stability dmg",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 5,
+    "Tonnage": 16,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "Arms",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

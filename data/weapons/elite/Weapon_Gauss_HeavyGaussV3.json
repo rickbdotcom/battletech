@@ -1,0 +1,69 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 180,
+    "MaxRange": 800,
+    "RangeSplit": [
+        240,
+        420,
+        600
+    ],
+    "ammoCategoryID": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 180,
+    "StructureDamage": 25,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 5,
+    "Instability": 80,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 10500000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "UMP",
+        "Model": "Heavy Magnetic Cannon",
+        "UIName": "Heavy Gauss Rifle + +",
+        "Id": "Weapon_Gauss_HeavyGaussV3",
+        "Name": "Heavy Gauss Rifle + +",
+        "Details": "The Heavy Gauss Rifle is a new, deadly innovation by Lyran Alliance scientists introduced in 3061 in conjunction with a manufacturing cooperation between Defiance Industries and TharHes. Applying their 'bigger is better' philosophy to Gauss technology, the Heavy Gauss Rifle is one of the heaviest battlefield weapons in existence, and has a correspondingly high damage potential.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+ 40 Dmg., + 20 Stb.Dmg.",
+    "BonusValueB": "- 3 Tons, - 3 Slots",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 15,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "Arms",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant2",
+            "range_extreme"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+
