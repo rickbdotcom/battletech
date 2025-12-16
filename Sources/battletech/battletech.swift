@@ -4,18 +4,18 @@ import Foundation
 @main
 struct BattleTech: ParsableCommand {
 
-    @Option(help: "weapons directory")
+    @Option(help: "weapons directories")
     var weapons: [String] = []
 
-    @Option(help: "mechs directory")
-    var mechs: [String] = []
+    @Option(help: "upgrades directories")
+    var upgrades: [String] = []
 
     @Flag(help: "verbose")
     var verbose = false
 
     func run() throws {
         try parseWeapons()
-        try parseMechs()
+        try parseUpgrades()
     }
 }
 

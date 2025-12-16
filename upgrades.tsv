@@ -1,0 +1,101 @@
+Name	Tonnage	Bonus
+M.A.S.C. +	2.0	+ 30% Walk, + 50% Sprint Speed + 5% Heat Generated
+M.A.S.C. (C) + +	2.0	+ 30% Walk, + 50% Sprint Speed 
+M.A.S.C. (C) +	2.0	+ 30% Walk, + 50% Sprint Speed + 5% Heat Generated
+Arm Mod + + +	1.0	+ 60 Melee Stb.Dmg. 
+Arm Mod +	1.0	+ 40 Melee Stb.Dmg. 
+Gyro +	0.0	- 20% Stb.Dmg. Taken 
+Guardian ECM +	1.5	+ 2 Hit Defense - 10% Dmg.
+C3i Computer +	2.0	+ 1 Init., + 1 Acc. + 15% Weapon Optimal Range
+Gyro	0.0	- 10% Stb.Dmg. Taken 
+Cockpit Mod +	0.0	+ 2 Injury Resist 
+AMS CLAN +	1.5	+ 5 Def. vs Missiles - 20% Dmg. from Missiles
+Lance Command Mod	0.0	+ Called Shot - 10% Dmg. (Lance)
+Rangefinder + + +	0.0	+ 120m View Dist. 
+Passive Defensive Matrix +	0.0	- 25% Dmg. + 45% Stability
+Targeting Computer + + +	0.0	Ignores 2 Evasion (Ballistic + Energy) - 3 Tons
+Passive Defensive Matrix	0.0	- 20% Dmg. + 35% Stability
+Guardian ECM (C) +	1.0	+ 2 Hit Defense - 10% Dmg.
+TTS Artemis IV (C) +	0.5	Ignores 2 Evasion (Missile) + 50% Crit. (Missile), - 1 Ton
+Heavy Defensive Suite	2.0	- 25% Dmg. + 40% Stability
+TTS	1.0	+ 1 Acc. (Missile) 
+Optimized Capacitors	0.0	+ 20% Energy Dmg. 
+TTS +	2.0	+ 2 Acc. (Energy) 
+Gyro +	0.0	+ 2 Hit Defense 
+Leg Mod + +	0.0	+ 15 DFA Dmg. 
+Heavy Defensive Suite +	2.0	- 30% Dmg. + 50% Stability
+TTS + + +	1.0	+ 3 Acc. (Energy) 
+Gyro	0.0	+ 1 Hit Defense 
+M.A.S.C. + +	2.0	+ 30% Walk, + 50% Sprint Speed 
+Hybrid Defensive Package +	0.5	- 25% Dmg. + 45% Stability
+Arm Mod + + +	1.0	+ 60 Melee Dmg. 
+Leg Mod	0.0	- 10 DFA Self Dmg. 
+Arm Mod	0.0	+ 5 Melee Dmg. 
+Battle Computer	0.0	+ 1 Initiative for all Lance units 
+TTS + +	3.0	+ 3 Acc. (Energy) 
+Gyro +	0.0	+ 2 Melee Hit 
+Arm Mod +	1.0	+ 15 Melee Dmg. 
+Comms System +	0.0	+ 2 Resolve Gain 
+Adv. Command Mod	8.0	+ 1 Acc. (All) - 10% Dmg. (Lance)
+VS System + +	5.0	Stealth, Indirect Fire Immunity + 4 Def., - 10% Dmg.
+Active Probe (C) + +	1.0	+ Area Sensor Lock + 2 Acc., + 30% Sensor Range
+Arm Mod	0.0	+ 10 Melee Stb.Dmg. 
+Targeting Computer + +	1.0	Ignores 2 Evasion (Ballistic + Energy) - 2 Tons
+Gyro + + +	0.0	- 35% Stb.Dmg. Taken 
+Nova CEWS (C) +	1.0	+ 1 Evasion, - 10% Dmg. + 1 Acc., + 15% Weapon Optimal Range
+TTS	1.0	+ 1 Acc. (Energy) 
+Cockpit Mod	0.0	+ 1 Injury Resist 
+Arm Mod	0.0	+ 20 Melee Stb.Dmg. 
+Nova CEWS (C) + +	1.0	+ 1 Evasion, - 10% Dmg. + 1 Acc., + 1 Acc. (Lance), + 30% Weapon Optimal Range
+Gyro + +	0.0	+ 3 Melee Hit 
+AMS CLAN + +	1.5	+ 6 Def. vs Missiles - 25% Dmg. from Missiles
+Arm Mod +	1.0	+ 30 Melee Stb.Dmg. 
+Guardian ECM + +	1.5	+ 3 Hit Defense - 10% Dmg.
+Leg Mod + +	2.0	- 30 DFA Self Dmg. 
+VS System +	5.0	Stealth, Indirect Fire Immunity + 3 Def., - 10% Dmg.
+Arm Mod + +	2.0	+ 40 Melee Dmg. 
+Hatchet	3.0	+ 70 Melee Dmg. 
+TTS +	2.0	+ 2 Acc. (Missile) 
+PPC Capacitator +	1.0	+ 25% PPC Damage + 10% PPC Heat
+AMS + +	1.5	+ 6 Def. vs Missiles - 25% Dmg. from Missiles
+Arm Mod	0.0	+ 10 Melee Dmg. 
+Leg Mod +	1.0	- 20 DFA Self Dmg. 
+AMS +	1.5	+ 5 Def. vs Missiles - 20% Dmg. from Missiles
+Leg Mod +	0.0	+ 10 DFA Dmg. 
+Guardian ECM (C) + +	1.0	+ 3 Hit Defense - 10% Dmg.
+Short-Range EW Suite +	1.0	+ 2 Defense (120m) 20% Melee Damage Reduction
+TTS +	2.0	+ 2 Acc. (Ballistic) 
+Comms System + +	0.0	+ 3 Resolve Gain 
+TTS + + +	1.0	+ 3 Acc. (Ballistic) 
+Comms System	0.0	+ 1 Resolve Gain 
+AUTOPILOT	1.0	 
+Command Mod	0.0	+ Called Shot - 10% Dmg. (Lance)
+Gyro + +	0.0	- 30% Stb.Dmg. Taken 
+Assault Enhancement Package	0.0	+ 10% Dmg. dealt - 10% Weapon Heat
+Gyro + +	0.0	+ 3 Hit Defense 
+Drive Train	0.0	+ 2 Initiative for this unit 
+TTS + +	3.0	+ 3 Acc. (Ballistic) 
+Active Probe (C) +	1.0	+ Area Sensor Lock + 1 Acc., + 20% Sensor Range
+Gyro	0.0	+ 1 Melee Hit 
+Rangefinder	0.0	+ 25m View Dist. 
+TTS Artemis IV (C) + +	0.0	Ignores 2 Evasion (Missile) + 50% Crit. (Missile), - 1.5 Tons
+Comms System + + +	0.0	+ 4 Resolve Gain 
+Arm Mod +	1.0	+ 20 Melee Dmg. 
+TTS	1.0	+ 1 Acc. (Ballistic) 
+TTS + + +	1.0	+ 3 Acc. (Missile) 
+Active Probe +	1.5	+ Area Sensor Lock + 1 Acc., + 20% Sensor Range
+Rangefinder +	0.0	+ 50m View Dist. 
+Leg Mod	0.0	+ 5 DFA Dmg. 
+Arm Mod + +	3.0	+ 60 Melee Dmg. 
+TTS + +	3.0	+ 3 Acc. (Missile) 
+TTS Artemis IV + +	0.0	Ignores 2 Evasion (Missile) - 2 Tons
+C3i Computer + +	2.0	+ 1 Init. (Lance), + 2 Acc., + 1 Acc. (Lance) + 30% Weapon Optimal Range
+Hybrid Defensive Package	0.5	- 20% Dmg. + 40% Stability
+Rangefinder + +	0.0	+ 100m View Dist. 
+Arm Mod + +	3.0	+ 60 Melee Stb.Dmg. 
+TTS Artemis IV +	1.0	Ignores 2 Evasion (Missile) - 1 Ton
+Short-Range EW Suite	1.0	+ 2 Defense (60m) 10% Melee Damage Reduction
+Active Probe + +	1.5	+ Area Sensor Lock + 2 Acc., + 30% Sensor Range
+Cockpit Mod + +	0.0	+ 3 Injury Resist 
+PPC Capacitator + +	1.0	+ 35% PPC Damage + 10% PPC Heat
+Arm Mod + +	2.0	+ 50 Melee Stb.Dmg. 

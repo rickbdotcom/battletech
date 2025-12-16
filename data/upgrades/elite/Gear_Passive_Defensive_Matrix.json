@@ -1,0 +1,104 @@
+{
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 5000000,
+        "Rarity": 9,
+        "Purchasable": true,
+        "Manufacturer": "Expanded Arsenal",
+        "Model": "",
+        "UIName": "Passive Defensive Matrix",
+        "Id": "Gear_Passive_Defensive_Matrix",
+        "Name": "Passive Defensive Matrix",
+        "Details": "A protective retrofit of spaced armour constructed of lightweight, advanced metamaterials that serves to deflect incoming attacks and reduce damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA": "- 20% Dmg.",
+    "BonusValueB": "+ 35% Stability",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 0,
+    "AllowedLocations": "LeftTorso,RightTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-EA-DamageReduction",
+                "Name": "DEFENSIVE MODIFICATION",
+                "Details": "This unit takes less damage and has increased stability.",
+                "Icon": "uixSvgIcon_special_Equipment"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.8",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-EA-StabilityIncrease",
+                "Name": "STABILITY INCREASE",
+                "Details": "NA",
+                "Icon": "uixSvgIcon_special_Equipment"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "MaxStability",
+                "operation": "Float_Multiply",
+                "modValue": "1.35",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

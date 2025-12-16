@@ -1,0 +1,34 @@
+{
+   "StatName" : null,
+   "RelativeModifier" : 1,
+   "AbsoluteModifier" : 1,
+   "Description" : {
+      "Id" : null,
+      "Name" : null,
+      "Details" : null,
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 99,
+      "Purchasable" : false
+   },
+   "BonusValueA" : "",
+	"BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+   "ComponentSubType" : "Functionality",
+   "PrefabIdentifier" : "",
+   "BattleValue" : 0,
+   "InventorySize" : 1,
+   "Tonnage" : 1,
+   "AllowedLocations" : "All",
+   "DisallowedLocations" : "None",
+   "CriticalComponent" : false,
+   "ComponentTags": {
+      "items": [
+         ""
+      ],
+      "tagSetSourceFile": ""
+   },
+   "statusEffects" : [
+      
+   ]
+}

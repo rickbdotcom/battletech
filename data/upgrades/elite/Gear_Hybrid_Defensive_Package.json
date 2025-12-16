@@ -1,0 +1,104 @@
+{
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 5000000,
+        "Rarity": 9,
+        "Purchasable": true,
+        "Manufacturer": "Expanded Arsenal",
+        "Model": "",
+        "UIName": "Hybrid Defensive Package",
+        "Id": "Gear_Hybrid_Defensive_Package",
+        "Name": "Hybrid Defensive Package",
+        "Details": "A combination of lightweight applique armour and an active protection suite of full-spectrum jammers and hit-to-kill point-defense systems.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA": "- 20% Dmg.",
+    "BonusValueB": "+ 40% Stability",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 0.5,
+    "AllowedLocations": "LeftTorso,RightTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-EA-DamageReduction",
+                "Name": "DEFENSIVE MODIFICATION",
+                "Details": "This unit takes less damage and has increased stability.",
+                "Icon": "uixSvgIcon_special_Equipment"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.8",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-EA-StabilityIncrease",
+                "Name": "STABILITY INCREASE",
+                "Details": "NA",
+                "Icon": "uixSvgIcon_special_Equipment"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "MaxStability",
+                "operation": "Float_Multiply",
+                "modValue": "1.4",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
