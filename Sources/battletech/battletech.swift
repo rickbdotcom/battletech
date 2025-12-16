@@ -5,10 +5,13 @@ import Foundation
 struct BattleTech: ParsableCommand {
 
     @Option(help: "weapons directory")
-    var weapons: [String]
+    var weapons: [String] = []
 
     @Option(help: "mechs directory")
-    var mechs: [String]
+    var mechs: [String] = []
+
+    @Flag(help: "verbose")
+    var verbose = false
 
     func run() throws {
         try parseWeapons()
@@ -21,15 +24,19 @@ protocol SpreadsheetConvertible {
     func toRow() -> String
 }
 
-func convert<T: Decodable & SpreadsheetConvertible>(files: [String], type: T.Type) -> [String] {
-    files.compactMap { file in
+func convert<T: Decodable & SpreadsheetConvertible>(files: [String], type: T.Type, verbose: Bool) -> [String] {
+    Array(Set(files.compactMap { file in
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: file))
             return try JSONDecoder().decode(T.self, from: data).toRow()
         } catch {
+            if verbose {
+                print(file)
+                print(error)
+            }
             return nil
         }
-    }
+    }))
 }
 
 func jsonPaths(from paths: [String]) throws -> [String] {

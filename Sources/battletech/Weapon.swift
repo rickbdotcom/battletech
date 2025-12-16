@@ -23,7 +23,7 @@ let ammoWeight = [
     "LB10X": 1.0 / 8.0,
     "LB20X": 1.0 / 5.0
 ]
-struct Weapon: Decodable & SpreadsheetConvertible{
+struct Weapon: Decodable & SpreadsheetConvertible {
     let category: String
     let weaponType: String
     let weaponSubType: String
@@ -35,7 +35,7 @@ struct Weapon: Decodable & SpreadsheetConvertible{
     let description: Description
     let shotsWhenFired: Double
     let maxRange: Int
-    let ammoCategoryID: String
+    let ammoCategoryID: String?
 
     var bonus: String {
         [bonusValueA, bonusValueB].joined(separator: " ")
@@ -73,7 +73,7 @@ struct Weapon: Decodable & SpreadsheetConvertible{
     }
 
     func ammoTonnage(rounds: Double) -> Double {
-        guard let weight = ammoWeight[ammoCategoryID] else {
+        guard let ammoCategoryID, let weight = ammoWeight[ammoCategoryID] else {
             return 0
         }
         return rounds * shotsWhenFired * weight
@@ -164,7 +164,7 @@ extension BattleTech {
 
         try (
             [Weapon.header()] +
-            convert(files: files, type: Weapon.self)
+            convert(files: files, type: Weapon.self, verbose: verbose)
         )
         .joined(separator: "\n")
         .data(using: .utf8)?.write(to: URL(fileURLWithPath: "weapons.tsv"))

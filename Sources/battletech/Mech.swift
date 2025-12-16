@@ -12,7 +12,6 @@ struct Mech: Decodable & SpreadsheetConvertible {
 
     struct DescriptionInfo: Decodable {
         let Name: String
-
     }
 
     static func header() -> String {
@@ -53,7 +52,7 @@ extension BattleTech {
 
         try (
             [Mech.header()] +
-            convert(files: files, type: Mech.self)
+            convert(files: files, type: Mech.self, verbose: verbose)
         )
         .joined(separator: "\n")
         .data(using: .utf8)?.write(to: URL(fileURLWithPath: "mechs.tsv"))
