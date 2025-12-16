@@ -1,121 +1,175 @@
 Name	Tonnage	Bonus
-Arm Mod + +	3.0	+ 60 Melee Dmg. 
-TTS Artemis IV +	1.0	Ignores 2 Evasion (Missile) - 1 Ton
-PPC Capacitator +	1.0	+ 25% PPC Damage + 10% PPC Heat
-Hybrid Defensive Package +	0.5	- 25% Dmg. + 45% Stability
-Comms System + + +	0.0	+ 4 Resolve Gain 
-Arm Mod + + +	1.0	+ 60 Melee Dmg. 
-Drive Train	0.0	+ 2 Initiative for this unit 
-Cockpit Mod +	0.0	+ 2 Injury Resist 
-Arm Mod	0.0	+ 10 Melee Dmg. 
-TTS +	2.0	+ 2 Acc. (Ballistic) 
-Gyro + +	0.0	- 30% Stb.Dmg. Taken 
-AMS +	1.5	+ 5 Def. vs Missiles - 20% Dmg. from Missiles
-Engine (LAM)	0.0	+ 20% Jump Distance - 10 Heat / Turn
-M.A.S.C. +	2.0	+ 30% Walk, + 50% Sprint Speed + 5% Heat Generated
-Active Probe + +	1.5	+ Area Sensor Lock + 2 Acc., + 30% Sensor Range
-Rangefinder + +	0.0	+ 100m View Dist. 
-Heavy Defensive Suite +	2.0	- 30% Dmg. + 50% Stability
-Gyro +	0.0	+ 2 Hit Defense 
-Gyro	0.0	+ 1 Hit Defense 
-Engine (LAM)	0.0	 
-TTS + + +	1.0	+ 3 Acc. (Missile) 
-Guardian ECM + +	1.5	+ 3 Hit Defense - 10% Dmg.
-Rangefinder + + +	0.0	+ 120m View Dist. 
-Heat Sink (X)	0.0	- 3 Heat / Turn 
-Arm Mod +	1.0	+ 40 Melee Stb.Dmg. 
-TTS +	2.0	+ 2 Acc. (Energy) 
-Exchanger	2.0	 - 10% Weapon Heat 
-Heat Bank + +	1.0	+ 30 Max Heat + 15 Overheat Threshold
-Gyro + +	0.0	+ 3 Melee Hit 
-Adv. Command Mod	8.0	+ 1 Acc. (All) - 10% Dmg. (Lance)
-Lance Command Mod	0.0	+ Called Shot - 10% Dmg. (Lance)
-Optimized Capacitors	0.0	+ 20% Energy Dmg. 
-TTS + + +	1.0	+ 3 Acc. (Ballistic) 
-Exchanger + +	4.0	 - 20% Weapon Heat 
-Hybrid Defensive Package	0.5	- 20% Dmg. + 40% Stability
-TTS + +	3.0	+ 3 Acc. (Missile) 
-Arm Mod +	1.0	+ 30 Melee Stb.Dmg. 
+Loader King Industrial Claw	0.0	+10% Melee Dmg +1 Melee Accuracy
+Battle Console	3.0	+ 1 Lance Init., +2 Resolve, + 25m View, + 1 Injury
+LAM Aluminium Armor	0.0	+ 20% Jump Distance 
 Passive Defensive Matrix +	0.0	- 25% Dmg. + 45% Stability
-Leg Mod +	0.0	+ 10 DFA Dmg. 
-Targeting Computer + + +	0.0	Ignores 2 Evasion (Ballistic + Energy) - 3 Tons
-Heat Bank +	1.0	+ 20 Max Heat + 10 Overheat Threshold
-Heat Sink (D-CC)	1.0	- 12 Heat / Turn 
-IS Engine Internal HeatSink 2	2.0	- 6 Heat / Turn 
-Cockpit Mod	0.0	+ 1 Injury Resist 
-TTS +	2.0	+ 2 Acc. (Missile) 
-TTS + +	3.0	+ 3 Acc. (Ballistic) 
-Assault Enhancement Package	0.0	+ 10% Dmg. dealt - 10% Weapon Heat
-TTS Artemis IV (C) +	0.5	Ignores 2 Evasion (Missile) + 50% Crit. (Missile), - 1 Ton
-Arm Mod + +	3.0	+ 60 Melee Stb.Dmg. 
-Guardian ECM (C) +	1.0	+ 2 Hit Defense - 10% Dmg.
-VS System + +	5.0	Stealth, Indirect Fire Immunity + 4 Def., - 10% Dmg.
-Passive Defensive Matrix	0.0	- 20% Dmg. + 35% Stability
-AUTOPILOT	1.0	 
-Comms System	0.0	+ 1 Resolve Gain 
-Active Probe +	1.5	+ Area Sensor Lock + 1 Acc., + 20% Sensor Range
-Cockpit Mod + +	0.0	+ 3 Injury Resist 
-Arm Mod + +	2.0	+ 40 Melee Dmg. 
-Leg Mod + +	2.0	- 30 DFA Self Dmg. 
-TTS Artemis IV (C) + +	0.0	Ignores 2 Evasion (Missile) + 50% Crit. (Missile), - 1.5 Tons
-Heat Sink Double (C)	1.0	- 6 Heat / Turn 
-Nova CEWS (C) + +	1.0	+ 1 Evasion, - 10% Dmg. + 1 Acc., + 1 Acc. (Lance), + 30% Weapon Optimal Range
-Engine Double Heat Sink Kit (CLAN)	0.0	 
-Gyro + + +	0.0	- 35% Stb.Dmg. Taken 
-TTS Artemis IV + +	0.0	Ignores 2 Evasion (Missile) - 2 Tons
-Gyro +	0.0	+ 2 Melee Hit 
-VS System +	5.0	Stealth, Indirect Fire Immunity + 3 Def., - 10% Dmg.
-Leg Mod	0.0	+ 5 DFA Dmg. 
-Command Mod	0.0	+ Called Shot - 10% Dmg. (Lance)
-Targeting Computer + +	1.0	Ignores 2 Evasion (Ballistic + Energy) - 2 Tons
-Heavy Defensive Suite	2.0	- 25% Dmg. + 40% Stability
-Short-Range EW Suite +	1.0	+ 2 Defense (120m) 20% Melee Damage Reduction
-Heat Sink Double (C)	0.0	- 6 Heat / Turn 
-Engine (LAM) +	0.0	+ 20% Jump Distance - 20 Heat / Turn
-TTS	1.0	+ 1 Acc. (Missile) 
-Comms System +	0.0	+ 2 Resolve Gain 
-Arm Mod +	1.0	+ 20 Melee Dmg. 
-Gyro +	0.0	- 20% Stb.Dmg. Taken 
-Rangefinder	0.0	+ 25m View Dist. 
-TTS + +	3.0	+ 3 Acc. (Energy) 
-Short-Range EW Suite	1.0	+ 2 Defense (60m) 10% Melee Damage Reduction
-Guardian ECM +	1.5	+ 2 Hit Defense - 10% Dmg.
-Guardian ECM (C) + +	1.0	+ 3 Hit Defense - 10% Dmg.
-Heat Bank	1.0	+ 10 Max Heat + 5 Overheat Threshold
-Heat Sink	1.0	- 3 Heat / Turn 
-Comms System + +	0.0	+ 3 Resolve Gain 
-Leg Mod + +	0.0	+ 15 DFA Dmg. 
-TTS	1.0	+ 1 Acc. (Ballistic) 
-M.A.S.C. (C) + +	2.0	+ 30% Walk, + 50% Sprint Speed 
-Battle Computer	0.0	+ 1 Initiative for all Lance units 
-C3i Computer +	2.0	+ 1 Init., + 1 Acc. + 15% Weapon Optimal Range
-Heat Sink (D)+	1.0	- 6 Heat / Turn 
-Heat Sink (DS)	1.0	- 6 Heat / Turn 
-PPC Capacitator + +	1.0	+ 35% PPC Damage + 10% PPC Heat
-Rangefinder +	0.0	+ 50m View Dist. 
-Leg Mod +	1.0	- 20 DFA Self Dmg. 
-M.A.S.C. (C) +	2.0	+ 30% Walk, + 50% Sprint Speed + 5% Heat Generated
-Arm Mod	0.0	+ 10 Melee Stb.Dmg. 
-Active Probe (C) +	1.0	+ Area Sensor Lock + 1 Acc., + 20% Sensor Range
-TTS + + +	1.0	+ 3 Acc. (Energy) 
-AMS + +	1.5	+ 6 Def. vs Missiles - 25% Dmg. from Missiles
-C3i Computer + +	2.0	+ 1 Init. (Lance), + 2 Acc., + 1 Acc. (Lance) + 30% Weapon Optimal Range
-Gyro	0.0	+ 1 Melee Hit 
-AMS CLAN + +	1.5	+ 6 Def. vs Missiles - 25% Dmg. from Missiles
-Hatchet	3.0	+ 70 Melee Dmg. 
-Active Probe (C) + +	1.0	+ Area Sensor Lock + 2 Acc., + 30% Sensor Range
-Nova CEWS (C) +	1.0	+ 1 Evasion, - 10% Dmg. + 1 Acc., + 15% Weapon Optimal Range
-TTS	1.0	+ 1 Acc. (Energy) 
-Exchanger +	3.0	 - 15% Weapon Heat 
-Gyro	0.0	- 10% Stb.Dmg. Taken 
-Arm Mod	0.0	+ 5 Melee Dmg. 
 Leg Mod	0.0	- 10 DFA Self Dmg. 
-Engine HS (D)	0.0	 
-Heat Sink (D)	1.0	- 6 Heat / Turn 
-Arm Mod + + +	1.0	+ 60 Melee Stb.Dmg. 
-AMS CLAN +	1.5	+ 5 Def. vs Missiles - 20% Dmg. from Missiles
+Rangefinder + +	0.0	+ 100m View Dist. 
+AMS + +	1.5	+ 6 Def. vs Missiles - 25% Dmg. from Missiles
+Arm Mod	0.0	+ 10 Melee Dmg. 
+Heat Sink Double (C)	1.0	- 6 Heat / Turn 
+Heavy Defensive Suite	2.0	- 25% Dmg. + 40% Stability
+Claw	0.0	+ 15 Melee Dmg. 
+Exchanger	2.0	 - 10% Weapon Heat 
+PPC Capacitator + +	1.0	+ 35% PPC Damage + 10% PPC Heat
+Arm Mod +	1.0	+ 40 Melee Stb.Dmg. 
+Drive Train	0.0	+ 2 Initiative for this unit 
+Targeting Computer + + +	0.0	Ignores 2 Evasion (Ballistic + Energy) - 3 Tons
+Arm Mod +	1.0	+ 20 Melee Dmg. 
+Comms System + + +	0.0	+ 4 Resolve Gain 
+Engine (LAM)	0.0	+ 20% Jump Distance - 10 Heat / Turn
+Targeting Computer +	2.0	Ignores 2 Evasion (Ballistic + Energy) - 1 Ton
+AMS CLAN	1.5	+ 4 Def. vs Missiles - 15% Dmg. from Missiles
+Engine Upgrade 4X	6.0	+ 40% Walk/Run Speed - 30% Weapon Heat
+T.S.M. (P)	0.0	+ 41% Melee Dmg. + 25% Heat Generated
+TC ++++ (C)	4.0	+ 4 Acc. 
+TTS + + +	1.0	+ 3 Acc. (Ballistic) 
+Claw	1.0	+ 15 Melee Dmg. 
+Hatchet	3.0	+ 70 Melee Dmg. 
+Targeting Computer	3.0	Ignores 2 Evasion (Ballistic + Energy) 
+Cockpit Mod	0.0	+ 1 Injury Resist 
+Engine Upgrade 4XL	8.0	+ 50% Walk/Run Speed - 40% Weapon Heat
+Leg Mod +	0.0	+ 10 DFA Dmg. 
+Gyro	0.0	- 10% Stb.Dmg. Taken 
+Assault Enhancement Package	0.0	+ 10% Dmg. dealt - 10% Weapon Heat
+Guardian ECM (C) + +	1.0	+ 3 Hit Defense - 10% Dmg.
+Rangefinder +	0.0	+ 50m View Dist. 
+M.A.S.C. (C)	2.0	+ 30% Walk, + 50% Sprint Speed + 15% Heat Generated
+Guardian ECM + +	1.5	+ 3 Hit Defense - 10% Dmg.
+Arm Mod +	1.0	+ 30 Melee Stb.Dmg. 
+TTS + +	3.0	+ 3 Acc. (Ballistic) 
+Heat Sink (DS)	1.0	- 6 Heat / Turn 
+Guardian ECM (C) +	1.0	+ 2 Hit Defense - 10% Dmg.
+Comms System	0.0	+ 1 Resolve Gain 
 Gyro + +	0.0	+ 3 Hit Defense 
-Arm Mod +	1.0	+ 15 Melee Dmg. 
+IS Engine Internal HeatSink 2	2.0	- 6 Heat / Turn 
+Heat Bank +	1.0	+ 20 Max Heat + 10 Overheat Threshold
+Active Probe (C) +	1.0	+ Area Sensor Lock + 1 Acc., + 20% Sensor Range
+Arm Mod	0.0	+ 5 Melee Dmg. 
+Leg Mod + +	0.0	+ 15 DFA Dmg. 
 Arm Mod + +	2.0	+ 50 Melee Stb.Dmg. 
+Chainsaw	2.0	+ 70 Melee Dmg. 
+Gyro +	0.0	+ 2 Hit Defense 
+VibroShiv (S)	3.0	+ 70 Melee Dmg. 
+AMS CLAN + +	1.5	+ 6 Def. vs Missiles - 25% Dmg. from Missiles
+Comms System +	0.0	+ 2 Resolve Gain 
+Leg Mod + +	2.0	- 30 DFA Self Dmg. 
+LAM Structure	0.0	+ 30% Jump Distance + 2 Max. Evasion
+C3i Computer +	2.0	+ 1 Init., + 1 Acc. + 15% Weapon Optimal Range
+VibroSword (L)	7.0	+ 90 Melee Dmg. 
+TTS +	2.0	+ 2 Acc. (Ballistic) 
+Rangefinder + + +	0.0	+ 120m View Dist. 
+Raven Shoulder ECM	3.0	+ ECM Field 
+TTS + + +	1.0	+ 3 Acc. (Energy) 
+Heat Sink	1.0	- 3 Heat / Turn 
+Heavy Defensive Suite +	2.0	- 30% Dmg. + 50% Stability
+Optimized Capacitors	0.0	+ 20% Energy Dmg. 
+Engine HS (D)	0.0	 
+M.A.S.C. (C) +	2.0	+ 30% Walk, + 50% Sprint Speed + 5% Heat Generated
+Tail	0.0	+ 20 Melee Dmg. 
+Nova CEWS (C)	1.0	+ 1 Evasion, -5% Dmg + 15% Weapon Optimal Range
+Heat Sink (D)+	1.0	- 6 Heat / Turn 
+Gyro +	0.0	- 20% Stb.Dmg. Taken 
+Passive Defensive Matrix	0.0	- 20% Dmg. + 35% Stability
+Hybrid Defensive Package +	0.5	- 25% Dmg. + 45% Stability
+Double Barrel!	0.0	Hands 
+TTS Artemis IV + +	0.0	Ignores 2 Evasion (Missile) - 2 Tons
+CIC Cockpit	1.0	+ 1 Initiative + 3 Resolve Gain
+PPC Capacitator +	1.0	+ 25% PPC Damage + 10% PPC Heat
+Heat Sink (D-CC)	1.0	- 12 Heat / Turn 
+Active Probe (C) + +	1.0	+ Area Sensor Lock + 2 Acc., + 30% Sensor Range
+M.A.S.C. (C) + +	2.0	+ 30% Walk, + 50% Sprint Speed 
+VS System +	5.0	Stealth, Indirect Fire Immunity + 3 Def., - 10% Dmg.
+PPC Capacitator	1.0	+ 15% PPC Damage + 20% PPC Heat
+Heat Sink Double (C)	0.0	- 6 Heat / Turn 
+Gyro + +	0.0	- 30% Stb.Dmg. Taken 
+Gyro + +	0.0	+ 3 Melee Hit 
+Cockpit Mod +	0.0	+ 2 Injury Resist 
+Endo Steel / Ferro-Fibrous	0.0	Saves Weight Takes Spaces
+TTS Artemis IV +	1.0	Ignores 2 Evasion (Missile) - 1 Ton
+Engine Upgrade 2X	2.0	+ 20% Walk/Run Speed - 10% Weapon Heat
+Adv. Command Mod	8.0	+ 1 Acc. (All) - 10% Dmg. (Lance)
+Engine (LAM) +	0.0	+ 20% Jump Distance - 20 Heat / Turn
+Leg Mod +	1.0	- 20 DFA Self Dmg. 
+Comms System + +	0.0	+ 3 Resolve Gain 
+Rangefinder	0.0	+ 25m View Dist. 
+Guardian ECM (C)	1.0	+ 2 Hit Defense - 5% Dmg.
+Heavy Defensive Suite + +	2.0	- 35% Dmg. + 50% Stability
+TTS Artemis IV Avatar	4.0	+ 2 Direct-Fire Missile Acc| + 1 Indirect Missile Acc.
+M.A.S.C. +	2.0	+ 30% Walk, + 50% Sprint Speed + 5% Heat Generated
+Cockpit Mod + +	0.0	+ 3 Injury Resist 
+Nova CEWS (C) + +	1.0	+ 1 Evasion, - 10% Dmg. + 1 Acc., + 1 Acc. (Lance), + 30% Weapon Optimal Range
+Endo Steel	0.0	Saves Weight Takes Spaces
+Active Probe (C)	1.0	+ Area Sensor Lock + 10% Sensor Range
+Command Mod	0.0	+ Called Shot - 10% Dmg. (Lance)
+Arm Mod + +	2.0	+ 40 Melee Dmg. 
+LAM Aluminium Armor + + +	0.0	+ 20% Jump Distance - 20% Dmg., +35% Stability
+Leg Mod	0.0	+ 5 DFA Dmg. 
+C3i Computer	2.0	+ 1 Init. + 15% Weapon Optimal Range
+LAM Aluminium Armor + +	0.0	+ 20% Jump Distance - 15% Dmg.
+Active Probe + +	1.5	+ Area Sensor Lock + 2 Acc., + 30% Sensor Range
+VS System	5.0	Stealth, Indirect Fire Immunity + 3 Def., - 5% Dmg.
+TTS	1.0	+ 1 Acc. (Energy) 
+Short-Range EW Suite +	1.0	+ 2 Defense (120m) 20% Melee Damage Reduction
+AMS +	1.5	+ 5 Def. vs Missiles - 20% Dmg. from Missiles
+Heat Sink (X)	0.0	- 3 Heat / Turn 
+TTS	1.0	+ 1 Acc. (Ballistic) 
+Heat Bank	1.0	+ 10 Max Heat + 5 Overheat Threshold
+AMS CLAN +	1.5	+ 5 Def. vs Missiles - 20% Dmg. from Missiles
+Company Command Mod	5.0	- 15% Dmg. (Lance) + 2 Acc., + 25% Crit. (Lance)
+Engine Double Heat Sink Kit (CLAN)	0.0	 
+Exchanger +	3.0	 - 15% Weapon Heat 
+AMS	1.5	+ 4 Def. vs Missiles - 15% Dmg. from Missiles
+Superheavy Chassis	0.0	- 30% Stb.Dmg. Taken, - 5 Recoil, - 50% Crit. - 1 Melee/Hit Def./Init. Penalty
+TTS Artemis IV	2.0	Ignores 2 Evasion (Missile) 
+Arm Mod + + +	1.0	+ 60 Melee Stb.Dmg. 
+Exchanger + +	4.0	 - 20% Weapon Heat 
+LAM Aluminium Armor +	0.0	+ 20% Jump Distance - 10% Dmg.
+TTS + +	3.0	+ 3 Acc. (Energy) 
+Crane	3.0	+15% Melee Stb Dmg +20 Melee Stb Dmg
+M.A.S.C.	2.0	+ 30% Walk, + 50% Sprint Speed + 15% Heat Generated
+Battle Computer	0.0	+ 1 Initiative for all Lance units 
+TTS + + +	1.0	+ 3 Acc. (Missile) 
+Active Probe	1.5	+ Area Sensor Lock + 10% Sensor Range
+Hybrid Defensive Package	0.5	- 20% Dmg. + 40% Stability
+C3i Computer + +	2.0	+ 1 Init. (Lance), + 2 Acc., + 1 Acc. (Lance) + 30% Weapon Optimal Range
+TTS Artemis IV (C)	1.5	Ignores 2 Evasion (Missile) + 50% Crit. (Missile)
+Engine (LAM)	0.0	 
+TTS +	2.0	+ 2 Acc. (Missile) 
+Gyro	0.0	+ 1 Hit Defense 
+TTS + +	3.0	+ 3 Acc. (Missile) 
+Arm Mod +	1.0	+ 15 Melee Dmg. 
+Retractable Blade	1.0	+25 Melee Dmg. +3 Melee Acc.
+Engine Upgrade 3X	4.0	+ 30% Walk/Run Speed - 20% Weapon Heat
+Heat Sink (D)	1.0	- 6 Heat / Turn 
+Arm Mod + +	3.0	+ 60 Melee Dmg. 
+Guardian ECM	1.5	+ 2 Hit Defense - 5% Dmg.
+Nova CEWS (C) +	1.0	+ 1 Evasion, - 10% Dmg. + 1 Acc., + 15% Weapon Optimal Range
+Katana	4.0	+ 70 Melee Dmg. 
+Ferro-Fibrous	0.0	Saves Weight Takes Spaces
 M.A.S.C. + +	2.0	+ 30% Walk, + 50% Sprint Speed 
+Arm Mod	0.0	+ 10 Melee Stb.Dmg. 
+Short-Range EW Suite	1.0	+ 2 Defense (60m) 10% Melee Damage Reduction
+Heat Bank + +	1.0	+ 30 Max Heat + 15 Overheat Threshold
+Gyro	0.0	+ 1 Melee Hit 
+TTS Artemis IV (C) + +	0.0	Ignores 2 Evasion (Missile) + 50% Crit. (Missile), - 1.5 Tons
+ECM Equipment	7.5	+20% Sight & Sensors| +1 Evasion|+1 Defense
+TTS	1.0	+ 1 Acc. (Missile) 
+Targeting Computer + +	1.0	Ignores 2 Evasion (Ballistic + Energy) - 2 Tons
+Arm Mod + + +	1.0	+ 60 Melee Dmg. 
+VS System + +	5.0	Stealth, Indirect Fire Immunity + 4 Def., - 10% Dmg.
+Cutlass	3.0	+ 40 Melee Dmg. 
+Gyro +	0.0	+ 2 Melee Hit 
+TTS Artemis IV (C) +	0.5	Ignores 2 Evasion (Missile) + 50% Crit. (Missile), - 1 Ton
+AUTOPILOT	1.0	 
 Arm Mod	0.0	+ 20 Melee Stb.Dmg. 
+Guardian ECM +	1.5	+ 2 Hit Defense - 10% Dmg.
+Active Probe +	1.5	+ Area Sensor Lock + 1 Acc., + 20% Sensor Range
+Gyro + + +	0.0	- 35% Stb.Dmg. Taken 
+TTS +	2.0	+ 2 Acc. (Energy) 
+Arm Mod + +	3.0	+ 60 Melee Stb.Dmg. 
+Lance Command Mod	0.0	+ Called Shot - 10% Dmg. (Lance)
+Superheavy Chassis +	0.0	- 30% Stb.Dmg. Taken, - 5 Recoil, - 50% Crit., + 25% Speed - 1 Melee/Hit Def./Init. Penalty
+Active Combat Shield (L)	3.0	-15% Damage Taken. -20% Jump Distance.
+Sensors	0.5	+ 25m View Dist. 
+Cmd. Console	3.0	+ 1 Init., +2 Resolve, + 25m View, + 2 Injury

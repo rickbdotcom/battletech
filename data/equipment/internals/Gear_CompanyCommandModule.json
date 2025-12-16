@@ -1,0 +1,133 @@
+{
+    "Description": {
+        "Cost": 1750000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Dalban",
+        "Model": "Warmaster V6",
+        "UIName": "Company Command Mod",
+        "Id": "Gear_CompanyCommandModule",
+        "Name": "Company Command Module",
+        "Details": "This module is an experimental version of the Lance Command Modules, mounted on Marauder series battlemechs. It enables greater unit cohesion and coordination than the original. This provides better defense against incoming attacks and improves the accuracy and critical hit chance of all attacks.",
+        "Icon": "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA": "- 15% Dmg. (Lance)",
+    "BonusValueB": "+ 2 Acc., + 25% Crit. (Lance)",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "InventorySize": 3,
+    "Tonnage": 5,
+    "AllowedLocations": "LeftTorso,RightTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "AllLanceMates",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-LCM-DamageReduction",
+                "Name": "COMPANY COMMAND MODULE",
+                "Details": "Gain 15% damage reduction, +2 accuracy, +25% crit chance",
+                "Icon": "uixSvgIcon_special_Equipment"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.85",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "AllLanceMates",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-LCM-AccuracyBonus",
+                "Name": "COMPANY COMMAND MODULE",
+                "Details": "Attacks executed by this unit are more accurate.",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "-2.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        },
+        {
+            "Description": {
+                "Id": "StatusEffect-LCM-CritBonus",
+                "Name": "COMPANY COMMAND MODULE",
+                "Details": "This unit's Critical Hit chance is improved.",
+                "Icon": "uixSvgIcon_statusCrit"
+            },
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "AllLanceMates",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false,
+                "hideApplicationFloatie": false
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "CriticalChanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.25",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "Description": {
+        "Cost": 1000,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "S-Mart",
+        "Model": "Evil Dead",
+        "UIName": "Double Barrel!",
+        "Id": "emod_arm_mortis",
+        "Name": "Arm Hand Actuator",
+        "Details": "All right, you primitive screw-heads, listen up! See this? This... is my boomstick! - It's a LB-X TWENTY!, double-barreled Defiance Disintegrator. S-Mart's top of the line. You can find this in the sporting goods department. That's right, this sweet baby was made in Grand Rapids, Michigan. Retails for about $109.95. It's got a walnut stock, cobalt-blue steel, and a hair trigger. That's right... shop smart: shop S-Mart... Ya got that?!",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "BonusValueA": "Hands",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 0,
+    "AllowedLocations": "Arms",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Status-MortisAccuracy-{location}",
+                "Name": "Mount Arm Accuracy",
+                "Details": "+1 Arm mounted accuracy.",
+                "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "{location}.Accuracy",
+                "operation": "Float_Add",
+                "modValue": "-3",
+                "modType": "System.Single"
+            }
+        },
+        {
+            "durationData": {
+
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Attack_ToHitMeleeHands",
+                "Name": "MELEE HIT CHANCE IMPROVED",
+                "Details": "Melee attacks attempted have their hit improved by +1.",
+                "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "-1.0",
+                "modType": "System.Single",
+                "targetCollection": "Weapon",
+                "targetWeaponSubType": "Melee"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+
