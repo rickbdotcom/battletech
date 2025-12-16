@@ -1,0 +1,34 @@
+{
+    "DissipationCapacity" : 6,
+    "Description" : {
+        "Cost" : 730000,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "Clan Tech",
+        "Model" : "Double Heat Sink",
+        "UIName" : "Heat Sink (D)+",
+        "Id" : "Gear_HeatSink_Generic_Double_Clantech",
+        "Name" : "Heat Sink (D)+",
+        "Details" : "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 6 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

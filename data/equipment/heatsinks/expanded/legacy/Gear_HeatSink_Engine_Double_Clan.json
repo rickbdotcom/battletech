@@ -1,0 +1,34 @@
+{
+    "DissipationCapacity" : 0,
+    "Description" : {
+        "Cost" : 1,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Clan",
+        "Model" : "Clan Engine Heat Sink Kit",
+        "UIName" : "Engine Double Heat Sink Kit (CLAN)",
+        "Id" : "Gear_HeatSink_Engine_Double_Clan",
+        "Name" : "Engine Double Heat Sink Kit (CLAN)",
+        "Details" : "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+			"BLACKLISTED"			
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

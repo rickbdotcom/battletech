@@ -1,0 +1,85 @@
+{
+    "DissipationCapacity": 20,
+    "Description": {
+        "Cost": 500000,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "Allied Aerospace",
+        "Model": "Valkyrie",
+        "UIName": "Engine (LAM) +",
+        "Id": "emod_Engine_LAM_1",
+        "Name": "Land Air Mech Engine",
+        "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms.",
+        "Icon": "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA": "+ 20% Jump Distance",
+    "BonusValueB": "- 20 Heat / Turn",
+    "ComponentType": "HeatSink",
+    "ComponentSubType": "Heatsink",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Jump_Distance-T3",
+                "Name": "JUMP DISTANCE INCREASED",
+                "Details": "Conversion Gear increase Jump Distance by 20%",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "JumpDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.2",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

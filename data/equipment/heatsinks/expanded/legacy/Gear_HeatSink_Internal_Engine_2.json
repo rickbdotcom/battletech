@@ -1,0 +1,34 @@
+{
+    "DissipationCapacity" : 12,
+    "Description" : {
+        "Cost" : 250000,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "Inner Sphere",
+        "Model" : "IS Engine Internal HeatSink 2",
+        "UIName" : "IS Engine Internal HeatSink 2",
+        "Id" : "Gear_HeatSink_Internal_Engine_2",
+        "Name" : "IS Engine Internal HeatSink 2)",
+        "Details" : "2 Double HeatSinks installed in the mech's engine. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 6 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 2,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+			"BLACKLISTED"			
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

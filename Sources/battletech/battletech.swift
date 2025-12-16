@@ -7,15 +7,15 @@ struct BattleTech: ParsableCommand {
     @Option(help: "weapons directories")
     var weapons: [String] = []
 
-    @Option(help: "upgrades directories")
-    var upgrades: [String] = []
+    @Option(help: "equipment directories")
+    var equipment: [String] = []
 
     @Flag(help: "verbose")
     var verbose = false
 
     func run() throws {
         try parseWeapons()
-        try parseUpgrades()
+        try parseEquipment()
     }
 }
 

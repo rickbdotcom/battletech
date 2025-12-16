@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Upgrade: Decodable & SpreadsheetConvertible {
+struct Equipment: Decodable & SpreadsheetConvertible {
     let tonnage: Double
     let bonusValueA: String
     let bonusValueB: String
@@ -59,18 +59,18 @@ struct Upgrade: Decodable & SpreadsheetConvertible {
 }
 
 extension BattleTech {
-    func parseUpgrades() throws {
-        guard upgrades.isEmpty == false else {
+    func parseEquipment() throws {
+        guard equipment.isEmpty == false else {
             return
         }
 
-        let files = try jsonPaths(from: upgrades)
+        let files = try jsonPaths(from: equipment)
 
         try (
-            [Upgrade.header()] +
-            convert(files: files, type: Upgrade.self, verbose: verbose)
+            [Equipment.header()] +
+            convert(files: files, type: Equipment.self, verbose: verbose)
         )
         .joined(separator: "\n")
-        .data(using: .utf8)?.write(to: URL(fileURLWithPath: "upgrades.tsv"))
+        .data(using: .utf8)?.write(to: URL(fileURLWithPath: "equipment.tsv"))
     }
 }
